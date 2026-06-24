@@ -1,0 +1,41 @@
+<pragmas>
+<pragma file="" line="0" pragmaType="inline" parentfunction="checkOverflowBaseC" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_range_ref<16, false>& ap_range_ref<16, false>::operator=<16, false>(ap_int_base<16, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="checkOverflowBaseC" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="af_range_ref<16, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>& af_range_ref<16, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<16, false>(ap_range_ref<16, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_range_ref<16, false>& ap_range_ref<16, false>::operator=<16, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>(af_range_ref<16, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="af_range_ref<16, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>& af_range_ref<16, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator=<16, false>(ap_int_base<16, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_user_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_id_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_dest_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="bool ap_fixed_base<16, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator><16, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>(ap_fixed_base<16, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&) const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<2, false>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<1>::ap_uint(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_last_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="range" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
+<pragma file="C:/2025.2/Vitis/common/technology/autopilot\etc/ap_common.h" line="530" pragmaType="inline" parentfunction="_ZN8ssdm_intILi1ELb0EEC2EDU1_" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<16, false>::ap_int_base<16, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>(af_range_ref<16, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<16, false>::ap_int_base<16, false>(ap_range_ref<16, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_data_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_keep_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<2>::ap_uint(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_strb_ptr" off="0" region="0" recursive="0"/>
+<pragma file="C:/2025.2/Vitis/common/technology/autopilot\etc/ap_common.h" line="530" pragmaType="inline" parentfunction="_ZN8ssdm_intILi2ELb0EEC2EDU2_" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="range" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<1, false>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp" line="64" pragmaType="pipeline" parentfunction="maxpool" off="0" ii="1" rewind="0" style=""/>
+<pragma file="C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp" line="47" pragmaType="pipeline" parentfunction="maxpool" off="0" ii="1" rewind="0" style=""/>
+<pragma file="C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp" line="50" pragmaType="unroll" parentfunction="maxpool" factor="-1" skip_exit_check="0"/>
+<pragma file="C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp" line="52" pragmaType="unroll" parentfunction="maxpool" factor="-1" skip_exit_check="0"/>
+<pragma file="C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp" line="35" pragmaType="pipeline" parentfunction="maxpool" off="0" ii="1" rewind="0" style=""/>
+<pragma file="C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp" line="21" pragmaType="interface" parentfunction="maxpool" mode="axis" port="in_stream" register="1" register_mode="both" name="" depth="-1"/>
+<pragma file="C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp" line="22" pragmaType="interface" parentfunction="maxpool" mode="axis" port="out_stream" register="1" register_mode="both" name="" depth="-1"/>
+<pragma file="C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp" line="27" pragmaType="array_partition" parentfunction="maxpool" dim="0" factor="0" mode="complete" dynamic="0" variable="input"/>
+<pragma file="C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp" line="31" pragmaType="array_partition" parentfunction="maxpool" dim="0" factor="0" mode="complete" dynamic="0" variable="output"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="af_range_ref<16, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>::af_range_ref(ap_fixed_base<16, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>*, int, int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_range_ref<16, false>::ap_range_ref(ap_int_base<16, false>*, int, int)" off="0" region="0" recursive="0"/>
+</pragmas>

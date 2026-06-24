@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BindInfo>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op setgt" ID="" IMPL="auto" LATENCY="0" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln44_fu_129_p2" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/relu.cpp:44" VARIABLE="icmp_ln44" MODULE="relu" LOOP="RELU_LOOP" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0" USAGE="" STORAGESUBTYPE="" STORAGESIZE=""/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op select" ID="" IMPL="auto_sel" LATENCY="0" OPTYPE="select" PRAGMA="" RTLNAME="result_1_fu_135_p3" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/relu.cpp:44" VARIABLE="result_1" MODULE="relu" LOOP="RELU_LOOP" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0" USAGE="" STORAGESUBTYPE="" STORAGESIZE=""/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op add" ID="" IMPL="fabric" LATENCY="0" OPTYPE="add" PRAGMA="" RTLNAME="i_3_fu_148_p2" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/relu.cpp:32" VARIABLE="i_3" MODULE="relu" LOOP="RELU_LOOP" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0" USAGE="" STORAGESUBTYPE="" STORAGESIZE=""/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op seteq" ID="" IMPL="auto" LATENCY="0" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln32_fu_154_p2" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/relu.cpp:32" VARIABLE="icmp_ln32" MODULE="relu" LOOP="RELU_LOOP" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0" USAGE="" STORAGESUBTYPE="" STORAGESIZE=""/>
+</BindInfo>

@@ -1,0 +1,210 @@
+#-----------------------------------------------------------
+# xsim v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Thu Jun 11 16:06:01 2026
+# Process ID         : 20860
+# Current directory  : C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/sim/verilog
+# Command line       : xsim.exe -mode tcl -source {xsim.dir/maxpool/xsim_script.tcl}
+# Log file           : C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/sim/verilog/xsim.log
+# Journal file       : C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/sim/verilog\xsim.jou
+# Running On         : DESKTOP-1HEQ2M2
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) i7-14700
+# CPU Frequency      : 2112 MHz
+# CPU Physical cores : 20
+# CPU Logical cores  : 28
+# Host memory        : 16938 MB
+# Swap memory        : 9142 MB
+# Total Virtual      : 26080 MB
+# Available Virtual  : 1856 MB
+#-----------------------------------------------------------
+source xsim.dir/maxpool/xsim_script.tcl
+# xsim {maxpool} -testplusarg UVM_VERBOSITY=UVM_NONE -testplusarg UVM_TESTNAME=maxpool_test_lib -testplusarg UVM_TIMEOUT=20000000000000 -autoloadwcfg -tclbatch {maxpool.tcl}
+Time resolution is 1 ps
+source maxpool.tcl
+## run all
+UVM_INFO C:/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO C:/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18648) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO C:/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18752) @ 0: reporter [UVMTOP] UVM testbench topology:
+--------------------------------------------------------------------------------------------------------------------
+Name                                                    Type                                   Size  Value          
+--------------------------------------------------------------------------------------------------------------------
+uvm_test_top                                            maxpool_test_lib                       -     @349           
+  top_env                                               maxpool_env                            -     @360           
+    env_master_svr_in_stream                            uvm_env                                -     @379           
+      m_agt                                             uvm_agent                              -     @582           
+        drv                                             uvm_driver #(REQ,RSP)                  -     @730           
+          rsp_port                                      uvm_analysis_port                      -     @749           
+          seq_item_port                                 uvm_seq_item_pull_port                 -     @739           
+        mon                                             uvm_monitor                            -     @759           
+          item_collect_port                             uvm_analysis_port                      -     @770           
+        sqr                                             uvm_sequencer                          -     @593           
+          rsp_export                                    uvm_analysis_export                    -     @602           
+          seq_item_export                               uvm_seq_item_pull_imp                  -     @720           
+          arbitration_queue                             array                                  0     -              
+          lock_queue                                    array                                  0     -              
+          num_last_reqs                                 integral                               32    'd1            
+          num_last_rsps                                 integral                               32    'd1            
+    env_slave_svr_out_stream                            uvm_env                                -     @392           
+      s_agt                                             uvm_agent                              -     @788           
+        drv                                             uvm_driver #(REQ,RSP)                  -     @936           
+          rsp_port                                      uvm_analysis_port                      -     @955           
+          seq_item_port                                 uvm_seq_item_pull_port                 -     @945           
+        mon                                             uvm_monitor                            -     @965           
+          item_collect_port                             uvm_analysis_port                      -     @976           
+        sqr                                             uvm_sequencer                          -     @799           
+          rsp_export                                    uvm_analysis_export                    -     @808           
+          seq_item_export                               uvm_seq_item_pull_imp                  -     @926           
+          arbitration_queue                             array                                  0     -              
+          lock_queue                                    array                                  0     -              
+          num_last_reqs                                 integral                               32    'd1            
+          num_last_rsps                                 integral                               32    'd1            
+    maxpool_virtual_sqr                                 maxpool_virtual_sequencer              -     @444           
+      rsp_export                                        uvm_analysis_export                    -     @453           
+      seq_item_export                                   uvm_seq_item_pull_imp                  -     @571           
+      arbitration_queue                                 array                                  0     -              
+      lock_queue                                        array                                  0     -              
+      num_last_reqs                                     integral                               32    'd1            
+      num_last_rsps                                     integral                               32    'd1            
+    refm                                                maxpool_reference_model                -     @402           
+      trans_num_idx                                     integral                               32    'h0            
+    subsys_mon                                          maxpool_subsystem_monitor              -     @415           
+      scbd                                              maxpool_scoreboard                     -     @1003          
+        refm                                            maxpool_reference_model                -     @402           
+          trans_num_idx                                 integral                               32    'h0            
+        file_rd_TVOUT_transaction_size                  <unknown>                              -     @1013          
+          TV_FILE                                       string                                 0     ""             
+          fp                                            integral                               32    'hxxxxxxxx     
+          TV_FILE_num                                   integral                               32    'h0            
+          HEX_read                                      integral                               32    'h0            
+          DEC_read                                      integral                               32    'h0            
+          is_binary                                     integral                               32    'h0            
+          TV_FILE_COMPARE                               string                                 0     ""             
+          fp_compare                                    integral                               32    'hxxxxxxxx     
+        TVOUT_transaction_size_queue                    da(integral)                           0     -              
+        file_wr_port_out_stream_out_stream_TDATA        <unknown>                              -     @1014          
+          TV_FILE                                       string                                 0     ""             
+          fp                                            integral                               32    'hxxxxxxxx     
+          file_open                                     integral                               32    'h0            
+          write_file_done                               integral                               32    'h0            
+          write_section_done                            integral                               32    'h0            
+          TRANSACTION_NUM                               integral                               32    'h0            
+          transaction_num_idx                           integral                               32    'h0            
+          TRANSACTION_DEPTH                             integral                               32    'h0            
+          TRANSACTION_DEPTH_queue                       da(integral)                           0     -              
+          TRANSACTION_DEPTH_queue_for_depth_check       da(integral)                           0     -              
+          transaction_depth_idx                         integral                               32    'h0            
+          ap_done_num_idx                               integral                               32    'h0            
+          is_binary                                     integral                               32    'h0            
+        write_file_done_out_stream_out_stream_TDATA     integral                               32    'h0            
+        write_section_done_out_stream_out_stream_TDATA  integral                               32    'h0            
+        file_wr_port_out_stream_out_stream_TKEEP        <unknown>                              -     @1015          
+          TV_FILE                                       string                                 0     ""             
+          fp                                            integral                               32    'hxxxxxxxx     
+          file_open                                     integral                               32    'h0            
+          write_file_done                               integral                               32    'h0            
+          write_section_done                            integral                               32    'h0            
+          TRANSACTION_NUM                               integral                               32    'h0            
+          transaction_num_idx                           integral                               32    'h0            
+          TRANSACTION_DEPTH                             integral                               32    'h0            
+          TRANSACTION_DEPTH_queue                       da(integral)                           0     -              
+          TRANSACTION_DEPTH_queue_for_depth_check       da(integral)                           0     -              
+          transaction_depth_idx                         integral                               32    'h0            
+          ap_done_num_idx                               integral                               32    'h0            
+          is_binary                                     integral                               32    'h0            
+        write_file_done_out_stream_out_stream_TKEEP     integral                               32    'h0            
+        write_section_done_out_stream_out_stream_TKEEP  integral                               32    'h0            
+        file_wr_port_out_stream_out_stream_TSTRB        <unknown>                              -     @1016          
+          TV_FILE                                       string                                 0     ""             
+          fp                                            integral                               32    'hxxxxxxxx     
+          file_open                                     integral                               32    'h0            
+          write_file_done                               integral                               32    'h0            
+          write_section_done                            integral                               32    'h0            
+          TRANSACTION_NUM                               integral                               32    'h0            
+          transaction_num_idx                           integral                               32    'h0            
+          TRANSACTION_DEPTH                             integral                               32    'h0            
+          TRANSACTION_DEPTH_queue                       da(integral)                           0     -              
+          TRANSACTION_DEPTH_queue_for_depth_check       da(integral)                           0     -              
+          transaction_depth_idx                         integral                               32    'h0            
+          ap_done_num_idx                               integral                               32    'h0            
+          is_binary                                     integral                               32    'h0            
+        write_file_done_out_stream_out_stream_TSTRB     integral                               32    'h0            
+        write_section_done_out_stream_out_stream_TSTRB  integral                               32    'h0            
+        file_wr_port_out_stream_out_stream_TLAST        <unknown>                              -     @1017          
+          TV_FILE                                       string                                 0     ""             
+          fp                                            integral                               32    'hxxxxxxxx     
+          file_open                                     integral                               32    'h0            
+          write_file_done                               integral                               32    'h0            
+          write_section_done                            integral                               32    'h0            
+          TRANSACTION_NUM                               integral                               32    'h0            
+          transaction_num_idx                           integral                               32    'h0            
+          TRANSACTION_DEPTH                             integral                               32    'h0            
+          TRANSACTION_DEPTH_queue                       da(integral)                           0     -              
+          TRANSACTION_DEPTH_queue_for_depth_check       da(integral)                           0     -              
+          transaction_depth_idx                         integral                               32    'h0            
+          ap_done_num_idx                               integral                               32    'h0            
+          is_binary                                     integral                               32    'h0            
+        write_file_done_out_stream_out_stream_TLAST     integral                               32    'h0            
+        write_section_done_out_stream_out_stream_TLAST  integral                               32    'h0            
+      svr_master_in_stream_imp                          uvm_analysis_imp_svr_master_in_stream  -     @424           
+      svr_slave_out_stream_imp                          uvm_analysis_imp_svr_slave_out_stream  -     @434           
+    env_master_svr_in_stream                            uvm_env                                -     @379           
+    env_slave_svr_out_stream                            uvm_env                                -     @392           
+    refm                                                maxpool_reference_model                -     @402           
+    maxpool_virtual_sqr                                 maxpool_virtual_sequencer              -     @444           
+    maxpool_cfg                                         maxpool_config                         -     @374           
+      port_in_stream_cfg                                svr_config                             -     @375           
+        svr_type                                        svr_inst_type                          32    SVR_MASTER     
+        prt_type                                        svr_protocol_type                      32    AXIS           
+        is_active                                       svr_active_passive_enum                1     SVR_ACTIVE     
+        reset_level                                     svr_reset_level_enum                   1     RESET_LEVEL_LOW
+        spec_cfg                                        svr_spec_cfg_enum                      32    NORMAL         
+        clatency                                        svr_latency                            -     @376           
+          transfer_latency                              integral                               32    'h0            
+      port_out_stream_cfg                               svr_config                             -     @377           
+        svr_type                                        svr_inst_type                          32    SVR_SLAVE      
+        prt_type                                        svr_protocol_type                      32    AXIS           
+        is_active                                       svr_active_passive_enum                1     SVR_ACTIVE     
+        reset_level                                     svr_reset_level_enum                   1     RESET_LEVEL_LOW
+        spec_cfg                                        svr_spec_cfg_enum                      32    NORMAL         
+        clatency                                        svr_latency                            -     @378           
+          transfer_latency                              integral                               32    'h0            
+      check_ena                                         integral                               32    'h0            
+      cover_ena                                         integral                               32    'h0            
+--------------------------------------------------------------------------------------------------------------------
+
+UVM_INFO C:/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "113000"
+// RTL Simulation : 1 / 1 [100.00%] @ "288000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 322500 ps : File "C:/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
+## quit
+INFO: [Common 17-206] Exiting xsim at Thu Jun 11 16:06:06 2026...

@@ -1,0 +1,162 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool 
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp' from hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.h' from hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool_tb.cpp' from hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=maxpool' from hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xck26-sfvc784-2LV-c' from hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xck26-sfvc784-2LV-c'
+INFO: [HLS 200-1465] Applying config ini 'clock=5ns' from hls_config.cfg(11)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 5ns.
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-1465] Applying config ini 'vivado.clock=5ns' from hls_config.cfg(12)
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/vitis-comp.json
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2 seconds. CPU system time: 2 seconds. Elapsed time: 4.265 seconds; current allocated memory: 535.375 MB.
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+INFO: [HLS 200-10] Analyzing design file 'C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp' ... 
+WARNING: [HLS 207-7023] missing argument for 'port' (C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp:23:1)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 4.261 seconds; current allocated memory: 538.383 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 668 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 215 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 169 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 159 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 121 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 236 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 195 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 195 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 195 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 262 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 263 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 223 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 198 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 198 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 186 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 174 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 214-291] Loop 'POOL_KR' is marked as complete unroll implied by the pipeline pragma (C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp:49:22)
+INFO: [HLS 214-291] Loop 'POOL_KC' is marked as complete unroll implied by the pipeline pragma (C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp:51:26)
+INFO: [HLS 214-186] Unrolling loop 'POOL_KR' (C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp:49:22) in function 'maxpool' completely with a factor of 2 (C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp:20:0)
+INFO: [HLS 214-186] Unrolling loop 'POOL_KC' (C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp:51:26) in function 'maxpool' completely with a factor of 2 (C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp:20:0)
+INFO: [HLS 214-178] Inlining function 'hls::axis<ap_uint<16>, 0ul, 0ul, 0ul, (unsigned char)56, false>::axis()' into 'maxpool(hls::stream<hls::axis<ap_uint<16>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_uint<16>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&)' (C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp:20:0)
+INFO: [HLS 214-248] Applying array_partition to 'input': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp:26:13)
+INFO: [HLS 214-248] Applying array_partition to 'output': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp:30:13)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 7.673 seconds; current allocated memory: 540.145 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.002 seconds; current allocated memory: 540.145 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.028 seconds; current allocated memory: 544.992 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 546.809 MB.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp:47:1) to (C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp:46:18) in function 'maxpool'... converting 4 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 568.531 MB.
+INFO: [HLS 200-2061] Successfully converted nested loops 'POOL_OR'(C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp:45:14) and 'POOL_OC'(C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp:46:18) in function 'maxpool' into perfectly nested loops.
+INFO: [XFORM 203-541] Flattening a loop nest 'POOL_OR' (C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp:45:14) in function 'maxpool'.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.066 seconds; current allocated memory: 589.293 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'maxpool' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'maxpool_Pipeline_READ_INPUT' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'READ_INPUT'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, loop 'READ_INPUT'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.105 seconds; current allocated memory: 593.004 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.656 seconds; current allocated memory: 594.035 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'maxpool_Pipeline_POOL_OR_POOL_OC' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'POOL_OR_POOL_OC'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, loop 'POOL_OR_POOL_OC'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 594.289 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.028 seconds; current allocated memory: 594.297 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'maxpool_Pipeline_WRITE_OUTPUT' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'WRITE_OUTPUT'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, loop 'WRITE_OUTPUT'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.032 seconds; current allocated memory: 594.398 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 594.434 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'maxpool' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.031 seconds; current allocated memory: 594.562 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 594.613 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'maxpool_Pipeline_READ_INPUT' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'maxpool_Pipeline_READ_INPUT' pipeline 'READ_INPUT' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'maxpool_Pipeline_READ_INPUT'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.042 seconds; current allocated memory: 596.230 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'maxpool_Pipeline_POOL_OR_POOL_OC' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'maxpool_Pipeline_POOL_OR_POOL_OC' pipeline 'POOL_OR_POOL_OC' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'maxpool_Pipeline_POOL_OR_POOL_OC'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.801 seconds; current allocated memory: 598.816 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'maxpool_Pipeline_WRITE_OUTPUT' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'maxpool_Pipeline_WRITE_OUTPUT' pipeline 'WRITE_OUTPUT' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'maxpool_Pipeline_WRITE_OUTPUT'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.095 seconds; current allocated memory: 601.164 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'maxpool' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'maxpool/in_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'maxpool/in_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'maxpool/in_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'maxpool/in_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'maxpool/out_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'maxpool/out_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'maxpool/out_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'maxpool/out_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'maxpool' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'maxpool'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.088 seconds; current allocated memory: 602.535 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.28 seconds; current allocated memory: 606.676 MB.
+INFO: [HLS 200-2225] Wrote inferred directives to file C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/syn/inferred_directives.ini
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.704 seconds; current allocated memory: 609.504 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for maxpool.
+INFO: [VLOG 209-307] Generating Verilog RTL for maxpool.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 305.90 MHz
+INFO: [HLS 200-112] Total CPU user time: 4 seconds. Total CPU system time: 2 seconds. Total elapsed time: 21.361 seconds; peak allocated memory: 609.562 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 0m 25s

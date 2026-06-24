@@ -1,0 +1,189 @@
+================================================================
+== Vivado RTL Synthesis Results
+================================================================
++ General Information:
+    * Date:            Thu Jun 11 10:32:56 +0530 2026
+    * Version:         2025.2 (Build 6295257 on Nov 14 2025)
+    * Project:         conv2d
+    * Solution:        hls (Vivado IP Flow Target)
+    * Product family:  zynquplus
+    * Target device:   xck26-sfvc784-2LV-c
+
+
+================================================================
+== Run Constraints & Options
+================================================================
++ Design Constraints & Options:
+    * RTL Synthesis target clock:  5 ns
+    * C-Synthesis target clock:    5 ns
+    * C-Synthesis uncertainty:     27%
+
++ RTL Synthesis Options:
+    * config_export -vivado_synth_strategy:     default
+    * config_export -vivado_synth_design_args:  -directive sdx_optimization_effort_high
+
++ Reporting Options:
+    * config_export -vivado_report_level:      2
+    * config_export -vivado_max_timing_paths:  10
+
+
+================================================================
+== RTL Synthesis Resource Summary
+================================================================
+LUT:              519
+FF:               981
+DSP:              9
+BRAM:             0
+URAM:             0
+SRL:              117
+
+
+================================================================
+== RTL Synthesis Timing Summary
+================================================================
+* Timing was met
++----------------+-------------+
+| Timing         | Period (ns) |
++----------------+-------------+
+| Target         | 5.000       |
+| Post-Synthesis | 1.986       |
++----------------+-------------+
+
+
+================================================================
+== RTL Synthesis Resources
+================================================================
++-------------------------------------+-----+----+-----+------+------+-----+--------+------+---------+----------+--------+
+| Name                                | LUT | FF | DSP | BRAM | URAM | SRL | Pragma | Impl | Latency | Variable | Source |
++-------------------------------------+-----+----+-----+------+------+-----+--------+------+---------+----------+--------+
+| inst                                |     |    |     |      |      | 117 |        |      |         |          |        |
+|   (inst)                            |     |    |     |      |      | 117 |        |      |         |          |        |
+|   flow_control_loop_pipe_U          |     |    |     |      |      |     |        |      |         |          |        |
+|   mac_muladd_16s_16s_24s_24_4_1_U25 |     |    |     |      |      |     |        |      |         |          |        |
+|   mac_muladd_16s_16s_24s_24_4_1_U26 |     |    |     |      |      |     |        |      |         |          |        |
+|   mac_muladd_16s_16s_24s_24_4_1_U27 |     |    |     |      |      |     |        |      |         |          |        |
+|   mac_muladd_16s_16s_24s_24_4_1_U28 |     |    |     |      |      |     |        |      |         |          |        |
+|   mac_muladd_16s_16s_24s_24_4_1_U29 |     |    |     |      |      |     |        |      |         |          |        |
+|   mac_muladd_16s_16s_24s_24_4_1_U30 |     |    |     |      |      |     |        |      |         |          |        |
+|   mac_muladd_16s_16s_24s_24_4_1_U31 |     |    |     |      |      |     |        |      |         |          |        |
+|   mac_muladd_16s_16s_24s_24_4_1_U32 |     |    |     |      |      |     |        |      |         |          |        |
+|   mac_muladd_16s_16s_24s_24_4_1_U33 |     |    |     |      |      |     |        |      |         |          |        |
++-------------------------------------+-----+----+-----+------+------+-----+--------+------+---------+----------+--------+
+
+
+================================================================
+== RTL Synthesis Fail Fast
+================================================================
++-----------------------------------------------------------+-----------+--------+--------+
+| Criteria                                                  | Guideline | Actual | Status |
++-----------------------------------------------------------+-----------+--------+--------+
+| LUT                                                       | 70%       | 0.44%  | OK     |
+| FD                                                        | 50%       | 0.42%  | OK     |
+| LUTRAM+SRL                                                | 25%       | 0.20%  | OK     |
+| CARRY8                                                    | 25%       | 0.00%  | OK     |
+| MUXF7                                                     | 15%       | 0.00%  | OK     |
+| DSP                                                       | 80%       | 0.72%  | OK     |
+| RAMB/FIFO                                                 | 80%       | 0.00%  | OK     |
+| URAM                                                      | 80%       | 0.00%  | OK     |
+| DSP+RAMB+URAM (Avg)                                       | 70%       | 0.72%  | OK     |
+| BUFGCE* + BUFGCTRL                                        | 24        | 0      | OK     |
+| DONT_TOUCH (cells/nets)                                   | 0         | 0      | OK     |
+| MARK_DEBUG (nets)                                         | 0         | 0      | OK     |
+| Control Sets                                              | 2196      | 3      | OK     |
+| Average Fanout for modules > 100k cells                   | 4         | 0.91   | OK     |
+| Max Average Fanout for modules > 100k cells               | 4         | 0      | OK     |
+| Non-FD high fanout nets > 10k loads                       | 0         | 0      | OK     |
++-----------------------------------------------------------+-----------+--------+--------+
+| TIMING-6 (No common primary clock between related clocks) | 0         | 0      | OK     |
+| TIMING-7 (No common node between related clocks)          | 0         | 0      | OK     |
+| TIMING-8 (No common period between related clocks)        | 0         | 0      | OK     |
+| TIMING-14 (LUT on the clock tree)                         | 0         | 0      | OK     |
+| TIMING-35 (No common node in paths with the same clock)   | 0         | 0      | OK     |
++-----------------------------------------------------------+-----------+--------+--------+
+| Number of paths above max LUT budgeting (0.391ns)         | 0         | 0      | OK     |
+| Number of paths above max Net budgeting (0.263ns)         | 0         | 0      | OK     |
++-----------------------------------------------------------+-----------+--------+--------+
+
+
+================================================================
+== RTL Synthesis Timing Paths
+================================================================
+* Timing was met
++-------+-------+----------------------+--------------------------------------------------------------------------------------------------------------------+--------------+------------+----------------+----------------+--------------+
+| Path  | SLACK | STARTPOINT PIN       | ENDPOINT PIN                                                                                                       | LOGIC LEVELS | MAX FANOUT | DATAPATH DELAY | DATAPATH LOGIC | DATAPATH NET |
+|       |       |                      |                                                                                                                    |              |            |                |          DELAY |        DELAY |
++-------+-------+----------------------+--------------------------------------------------------------------------------------------------------------------+--------------+------------+----------------+----------------+--------------+
+| Path1 | 3.014 | oc_s_fu_162_reg[1]/C | mac_muladd_16s_16s_24s_24_4_1_U25/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_A_B_DATA_INST/A[24] |            3 |         83 |          1.434 |          0.622 |        0.812 |
+| Path2 | 3.027 | oc_s_fu_162_reg[1]/C | mac_muladd_16s_16s_24s_24_4_1_U25/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_A_B_DATA_INST/A[0]  |            3 |         83 |          1.387 |          0.622 |        0.765 |
+| Path3 | 3.047 | oc_s_fu_162_reg[1]/C | mac_muladd_16s_16s_24s_24_4_1_U25/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_A_B_DATA_INST/A[23] |            3 |         83 |          1.391 |          0.622 |        0.769 |
+| Path4 | 3.049 | oc_s_fu_162_reg[1]/C | mac_muladd_16s_16s_24s_24_4_1_U25/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_A_B_DATA_INST/A[25] |            3 |         83 |          1.390 |          0.622 |        0.768 |
+| Path5 | 3.055 | oc_s_fu_162_reg[1]/C | mac_muladd_16s_16s_24s_24_4_1_U25/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_A_B_DATA_INST/A[26] |            3 |         83 |          1.386 |          0.622 |        0.764 |
++-------+-------+----------------------+--------------------------------------------------------------------------------------------------------------------+--------------+------------+----------------+----------------+--------------+
+
+    +--------------------------------------------------------------------------------------------------------------+------------------------+
+    | Path1 Cells                                                                                                  | Primitive Type         |
+    +--------------------------------------------------------------------------------------------------------------+------------------------+
+    | oc_s_fu_162_reg[1]                                                                                           | REGISTER.SDR.FDRE      |
+    | flow_control_loop_pipe_U/select_ln81_reg_1489[1]_i_1                                                         | CLB.LUT.LUT6           |
+    | flow_control_loop_pipe_U/p_reg_reg_i_17                                                                      | CLB.LUT.LUT5           |
+    | flow_control_loop_pipe_U/p_reg_reg_i_1                                                                       | CLB.LUT.LUT5           |
+    | mac_muladd_16s_16s_24s_24_4_1_U25/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_A_B_DATA_INST | ARITHMETIC.DSP.DSP48E2 |
+    +--------------------------------------------------------------------------------------------------------------+------------------------+
+
+    +--------------------------------------------------------------------------------------------------------------+------------------------+
+    | Path2 Cells                                                                                                  | Primitive Type         |
+    +--------------------------------------------------------------------------------------------------------------+------------------------+
+    | oc_s_fu_162_reg[1]                                                                                           | REGISTER.SDR.FDRE      |
+    | flow_control_loop_pipe_U/select_ln81_reg_1489[1]_i_1                                                         | CLB.LUT.LUT6           |
+    | flow_control_loop_pipe_U/p_reg_reg_i_62                                                                      | CLB.LUT.LUT5           |
+    | flow_control_loop_pipe_U/p_reg_reg_i_16                                                                      | CLB.LUT.LUT5           |
+    | mac_muladd_16s_16s_24s_24_4_1_U25/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_A_B_DATA_INST | ARITHMETIC.DSP.DSP48E2 |
+    +--------------------------------------------------------------------------------------------------------------+------------------------+
+
+    +--------------------------------------------------------------------------------------------------------------+------------------------+
+    | Path3 Cells                                                                                                  | Primitive Type         |
+    +--------------------------------------------------------------------------------------------------------------+------------------------+
+    | oc_s_fu_162_reg[1]                                                                                           | REGISTER.SDR.FDRE      |
+    | flow_control_loop_pipe_U/select_ln81_reg_1489[1]_i_1                                                         | CLB.LUT.LUT6           |
+    | flow_control_loop_pipe_U/p_reg_reg_i_17                                                                      | CLB.LUT.LUT5           |
+    | flow_control_loop_pipe_U/p_reg_reg_i_1                                                                       | CLB.LUT.LUT5           |
+    | mac_muladd_16s_16s_24s_24_4_1_U25/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_A_B_DATA_INST | ARITHMETIC.DSP.DSP48E2 |
+    +--------------------------------------------------------------------------------------------------------------+------------------------+
+
+    +--------------------------------------------------------------------------------------------------------------+------------------------+
+    | Path4 Cells                                                                                                  | Primitive Type         |
+    +--------------------------------------------------------------------------------------------------------------+------------------------+
+    | oc_s_fu_162_reg[1]                                                                                           | REGISTER.SDR.FDRE      |
+    | flow_control_loop_pipe_U/select_ln81_reg_1489[1]_i_1                                                         | CLB.LUT.LUT6           |
+    | flow_control_loop_pipe_U/p_reg_reg_i_17                                                                      | CLB.LUT.LUT5           |
+    | flow_control_loop_pipe_U/p_reg_reg_i_1                                                                       | CLB.LUT.LUT5           |
+    | mac_muladd_16s_16s_24s_24_4_1_U25/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_A_B_DATA_INST | ARITHMETIC.DSP.DSP48E2 |
+    +--------------------------------------------------------------------------------------------------------------+------------------------+
+
+    +--------------------------------------------------------------------------------------------------------------+------------------------+
+    | Path5 Cells                                                                                                  | Primitive Type         |
+    +--------------------------------------------------------------------------------------------------------------+------------------------+
+    | oc_s_fu_162_reg[1]                                                                                           | REGISTER.SDR.FDRE      |
+    | flow_control_loop_pipe_U/select_ln81_reg_1489[1]_i_1                                                         | CLB.LUT.LUT6           |
+    | flow_control_loop_pipe_U/p_reg_reg_i_17                                                                      | CLB.LUT.LUT5           |
+    | flow_control_loop_pipe_U/p_reg_reg_i_1                                                                       | CLB.LUT.LUT5           |
+    | mac_muladd_16s_16s_24s_24_4_1_U25/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_A_B_DATA_INST | ARITHMETIC.DSP.DSP48E2 |
+    +--------------------------------------------------------------------------------------------------------------+------------------------+
+
+
+================================================================
+== RTL Synthesis Vivado Reports
+================================================================
++--------------------------+---------------------------------------------------------------+
+| Report Type              | Report Location                                               |
++--------------------------+---------------------------------------------------------------+
+| design_analysis          | impl/verilog/report/conv2d_design_analysis_synth.rpt          |
+| failfast                 | impl/verilog/report/conv2d_failfast_synth.rpt                 |
+| power                    | impl/verilog/report/conv2d_power_synth.rpt                    |
+| timing                   | impl/verilog/report/conv2d_timing_synth.rpt                   |
+| timing_paths             | impl/verilog/report/conv2d_timing_paths_synth.rpt             |
+| utilization              | impl/verilog/report/conv2d_utilization_synth.rpt              |
+| utilization_hierarchical | impl/verilog/report/conv2d_utilization_hierarchical_synth.rpt |
++--------------------------+---------------------------------------------------------------+
+
+

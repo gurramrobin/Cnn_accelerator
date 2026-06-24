@@ -1,0 +1,4 @@
+domain_path: C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl\zynqmp_fsbl_bsp
+app_src_dir: C:\2025.2\Vitis\data\embeddedsw\lib\sw_apps\zynqmp_fsbl
+template: zynqmp_fsbl
+lang: c

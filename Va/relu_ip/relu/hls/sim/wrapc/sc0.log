@@ -1,0 +1,7 @@
+   Build using "C:/2025.2/Vitis/win64/tools/clang-16/bin/clang++"
+   Compiling apatb_relu.cpp
+   Compiling apatb_relu_util.cpp
+   Compiling relu.cpp_pre.cpp.tb.cpp
+   Compiling relu_tb.cpp_pre.cpp.tb.cpp
+   Compiling apatb_relu_ir.ll
+   Generating cosim.tv.exe

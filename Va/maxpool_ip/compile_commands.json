@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "C:\\CHINNA\\HLS_workspace\\maxpool_ip",
+    "arguments": [
+      "C:\\2025.2\\Vitis\\win64\\tools\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\2025.2\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=maxpool",
+      "-c",
+      "C:\\Users\\LAB2_PC10\\Desktop\\CHINNA\\files\\maxpool.cpp"
+    ],
+    "file": "C:\\Users\\LAB2_PC10\\Desktop\\CHINNA\\files\\maxpool.cpp"
+  },
+  {
+    "directory": "C:\\CHINNA\\HLS_workspace\\maxpool_ip",
+    "arguments": [
+      "C:\\2025.2\\Vitis\\win64\\tools\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=C:\\2025.2\\Vitis\\include",
+      "-c",
+      "C:\\Users\\LAB2_PC10\\Desktop\\CHINNA\\files\\maxpool_tb.cpp"
+    ],
+    "file": "C:\\Users\\LAB2_PC10\\Desktop\\CHINNA\\files\\maxpool_tb.cpp"
+  }
+]

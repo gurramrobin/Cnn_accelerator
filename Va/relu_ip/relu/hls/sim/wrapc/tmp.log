@@ -1,0 +1,16 @@
+==============================
+ReLU Testbench (AXI-Stream)
+==============================
+  relu[0][0] =    47.5  expected=47.5  PASS
+  relu[0][1] =    52.5  expected=52.5  PASS
+  relu[0][2] =    57.5  expected=57.5  PASS
+  relu[1][0] =       0  expected=0  PASS
+  relu[1][1] =    77.5  expected=77.5  PASS
+  relu[1][2] =       0  expected=0  PASS
+  relu[2][0] =    97.5  expected=97.5  PASS
+  relu[2][1] =       0  expected=0  PASS
+  relu[2][2] =   107.5  expected=107.5  PASS
+==============================
+PASS: 9  FAIL: 0
+RESULT: ALL TESTS PASSED
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 9

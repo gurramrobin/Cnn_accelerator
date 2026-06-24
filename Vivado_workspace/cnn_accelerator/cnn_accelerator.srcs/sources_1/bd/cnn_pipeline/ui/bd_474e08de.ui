@@ -1,0 +1,42 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.883883",
+   "Default View_TopLeft":"-7,-978",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -x 290 -y -610 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x 290 -y -350 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 3 -x 1140 -y -550 -defaultsOSRD
+preplace inst conv2d_0 -pg 1 -lvl 4 -x 1540 -y -500 -defaultsOSRD
+preplace inst relu_0 -pg 1 -lvl 5 -x 1900 -y -490 -defaultsOSRD
+preplace inst maxpool_0 -pg 1 -lvl 6 -x 2250 -y -480 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 2 -x 790 -y -600 -defaultsOSRD
+preplace inst axi_smc_1 -pg 1 -lvl 2 -x 790 -y -330 -defaultsOSRD
+preplace inst fifo_generator_0 -pg 1 -lvl 3 -x 1140 -y -310 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 3 -x 1140 -y -770 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 3 -x 1140 -y -160 -defaultsOSRD
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 6 -30 -460 620 -440 960 -400 1350 -650 1720 -620 2070
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 1 5 630 -490 970 -410 1330 -660 1730 -640 2080
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 2 -20 -450 600
+preplace netloc xlconstant_0_dout 1 3 3 1360 -670 1740 -630 2090
+preplace netloc xlconstant_1_dout 1 3 1 1370 -410n
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 1 1 610J -640n
+preplace netloc axi_smc_M00_AXI 1 2 1 N -600
+preplace netloc axi_dma_0_M_AXI_MM2S 1 1 3 640 -430 N -430 1320
+preplace netloc axi_smc_1_M00_AXI 1 0 3 -20 -480 NJ -480 930
+preplace netloc axi_smc_1_M01_AXI 1 0 3 -40 -470 NJ -470 940
+preplace netloc axi_dma_0_M_AXI_S2MM 1 1 3 650 -420 N -420 1310
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 3 1 1340 -570n
+preplace netloc conv2d_0_out_stream 1 4 1 1710 -500n
+preplace netloc relu_0_out_stream 1 5 1 2060 -490n
+preplace netloc maxpool_0_out_stream 1 2 5 970 -680 NJ -680 NJ -680 NJ -680 2410
+preplace netloc fifo_generator_0_M_AXIS 1 3 1 1360 -470n
+levelinfo -pg 1 -60 290 790 1140 1540 1900 2250 2430
+pagesize -pg 1 -db -bbox -sgen -530 -920 2430 180
+"
+}
+{
+   "da_axi4_cnt":"4",
+   "da_zynq_ultra_ps_e_cnt":"2"
+}

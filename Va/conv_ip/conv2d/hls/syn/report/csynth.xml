@@ -1,0 +1,980 @@
+<profile>
+    <ReportVersion>
+        <Version>2025.2</Version>
+    </ReportVersion>
+    <UserAssignments>
+        <unit>ns</unit>
+        <ProductFamily>zynquplus</ProductFamily>
+        <Part>xck26-sfvc784-2LV-c</Part>
+        <TopModelName>conv2d</TopModelName>
+        <TargetClockPeriod>5.00</TargetClockPeriod>
+        <ClockUncertainty>1.35</ClockUncertainty>
+        <FlowTarget>vivado</FlowTarget>
+    </UserAssignments>
+    <PerformanceEstimates>
+        <PipelineType>no</PipelineType>
+        <SummaryOfTimingAnalysis>
+            <unit>ns</unit>
+            <EstimatedClockPeriod>3.004</EstimatedClockPeriod>
+        </SummaryOfTimingAnalysis>
+        <SummaryOfOverallLatency>
+            <unit>clock cycles</unit>
+            <Best-caseLatency>66</Best-caseLatency>
+            <Average-caseLatency>66</Average-caseLatency>
+            <Worst-caseLatency>66</Worst-caseLatency>
+            <Best-caseRealTimeLatency>0.330 us</Best-caseRealTimeLatency>
+            <Average-caseRealTimeLatency>0.330 us</Average-caseRealTimeLatency>
+            <Worst-caseRealTimeLatency>0.330 us</Worst-caseRealTimeLatency>
+            <Interval-min>67</Interval-min>
+            <Interval-max>67</Interval-max>
+            <PerformancePragma>-</PerformancePragma>
+        </SummaryOfOverallLatency>
+        <SummaryOfViolations>
+            <IssueType>-</IssueType>
+            <ViolationType>-</ViolationType>
+            <SourceLocation>C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:23</SourceLocation>
+        </SummaryOfViolations>
+    </PerformanceEstimates>
+    <AreaEstimates>
+        <Resources>
+            <DSP>9</DSP>
+            <FF>1726</FF>
+            <LUT>1248</LUT>
+            <BRAM_18K>0</BRAM_18K>
+            <URAM>0</URAM>
+        </Resources>
+        <AvailableResources>
+            <BRAM_18K>288</BRAM_18K>
+            <DSP>1248</DSP>
+            <FF>234240</FF>
+            <LUT>117120</LUT>
+            <URAM>64</URAM>
+        </AvailableResources>
+    </AreaEstimates>
+    <InterfaceSummary>
+        <RtlPorts>
+            <name>ap_clk</name>
+            <Object>conv2d</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_rst_n</name>
+            <Object>conv2d</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_start</name>
+            <Object>conv2d</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_done</name>
+            <Object>conv2d</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_idle</name>
+            <Object>conv2d</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_ready</name>
+            <Object>conv2d</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>in_stream_TDATA</name>
+            <Object>in_stream_V_data_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>16</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>in_stream_TVALID</name>
+            <Object>in_stream_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>in_stream_TREADY</name>
+            <Object>in_stream_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>in_stream_TLAST</name>
+            <Object>in_stream_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>in_stream_TKEEP</name>
+            <Object>in_stream_V_keep_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>2</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>in_stream_TSTRB</name>
+            <Object>in_stream_V_strb_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>2</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>weight_stream_TDATA</name>
+            <Object>weight_stream_V_data_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>16</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>weight_stream_TVALID</name>
+            <Object>weight_stream_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>weight_stream_TREADY</name>
+            <Object>weight_stream_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>weight_stream_TLAST</name>
+            <Object>weight_stream_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>weight_stream_TKEEP</name>
+            <Object>weight_stream_V_keep_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>2</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>weight_stream_TSTRB</name>
+            <Object>weight_stream_V_strb_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>2</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>bias</name>
+            <Object>bias</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>16</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>out_stream_TDATA</name>
+            <Object>out_stream_V_data_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>out</Dir>
+            <Bits>16</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>out_stream_TVALID</name>
+            <Object>out_stream_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>out_stream_TREADY</name>
+            <Object>out_stream_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>out_stream_TLAST</name>
+            <Object>out_stream_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>out_stream_TKEEP</name>
+            <Object>out_stream_V_keep_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>out</Dir>
+            <Bits>2</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>out_stream_TSTRB</name>
+            <Object>out_stream_V_strb_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>out</Dir>
+            <Bits>2</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+    </InterfaceSummary>
+    <RTLDesignHierarchy>
+        <TopModule MAX_DEPTH="3">
+            <ModuleName>conv2d</ModuleName>
+            <InstancesList>
+                <Instance>
+                    <InstName>grp_conv2d_Pipeline_READ_INPUT_fu_252</InstName>
+                    <ModuleName>conv2d_Pipeline_READ_INPUT</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>252</ID>
+                    <BindInstances>icmp_ln57_fu_449_p2 i_fu_455_p2 add_ln66_fu_464_p2 add_ln47_fu_497_p2 icmp_ln47_fu_503_p2 select_ln47_fu_509_p3</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_conv2d_Pipeline_READ_WEIGHTS_fu_289</InstName>
+                    <ModuleName>conv2d_Pipeline_READ_WEIGHTS</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>289</ID>
+                    <BindInstances>icmp_ln73_fu_233_p2 i_fu_239_p2 add_ln81_fu_248_p2 add_ln73_1_fu_277_p2 icmp_ln73_1_fu_283_p2 select_ln73_fu_289_p3</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_conv2d_Pipeline_CONV_OR_CONV_OC2_fu_310</InstName>
+                    <ModuleName>conv2d_Pipeline_CONV_OR_CONV_OC2</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>310</ID>
+                    <BindInstances>icmp_ln89_fu_522_p2 add_ln89_fu_528_p2 icmp_ln90_fu_540_p2 select_ln49_fu_546_p3 add_ln96_fu_555_p2 select_ln89_fu_561_p3 sparsemux_7_2_16_1_1_U43 sparsemux_7_2_16_1_1_U44 sparsemux_7_2_16_1_1_U45 sparsemux_7_2_16_1_1_U46 mac_muladd_16s_16s_24s_24_4_1_U67 mac_muladd_16s_16s_24s_24_4_1_U67 add_ln96_2_fu_653_p2 sparsemux_7_2_16_1_1_U51 sparsemux_7_2_16_1_1_U52 sparsemux_7_2_16_1_1_U53 sparsemux_7_2_16_1_1_U54 mac_muladd_16s_16s_24s_24_4_1_U68 mac_muladd_16s_16s_24s_24_4_1_U68 sparsemux_7_2_16_1_1_U59 sparsemux_7_2_16_1_1_U60 sparsemux_7_2_16_1_1_U61 sparsemux_7_2_16_1_1_U62 mac_muladd_16s_16s_24s_24_4_1_U69 mac_muladd_16s_16s_24s_24_4_1_U69 sparsemux_7_2_16_1_1_U47 sparsemux_7_2_16_1_1_U48 mac_muladd_16s_16s_24s_24_4_1_U70 mac_muladd_16s_16s_24s_24_4_1_U70 sparsemux_7_2_16_1_1_U55 sparsemux_7_2_16_1_1_U56 mac_muladd_16s_16s_24s_24_4_1_U71 mac_muladd_16s_16s_24s_24_4_1_U71 sparsemux_7_2_16_1_1_U63 sparsemux_7_2_16_1_1_U64 mac_muladd_16s_16s_24s_24_4_1_U72 mac_muladd_16s_16s_24s_24_4_1_U72 sparsemux_7_2_16_1_1_U49 sparsemux_7_2_16_1_1_U50 mac_muladd_16s_16s_24s_24_4_1_U73 mac_muladd_16s_16s_24s_24_4_1_U73 sparsemux_7_2_16_1_1_U57 sparsemux_7_2_16_1_1_U58 mac_muladd_16s_16s_24s_24_4_1_U74 mac_muladd_16s_16s_24s_24_4_1_U74 sparsemux_7_2_16_1_1_U65 sparsemux_7_2_16_1_1_U66 mac_muladd_16s_16s_24s_24_4_1_U75 mac_muladd_16s_16s_24s_24_4_1_U75</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_conv2d_Pipeline_WRITE_OUTPUT_fu_358</InstName>
+                    <ModuleName>conv2d_Pipeline_WRITE_OUTPUT</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>358</ID>
+                    <BindInstances>icmp_ln109_fu_194_p2 i_fu_200_p2 add_ln110_fu_212_p2 icmp_ln110_fu_218_p2 select_ln110_fu_224_p3 add_ln113_fu_232_p2 sparsemux_7_2_16_1_1_U122 sparsemux_7_2_16_1_1_U123 sparsemux_7_2_16_1_1_U124 sparsemux_7_2_16_1_1_U125 icmp_ln118_fu_332_p2</BindInstances>
+                </Instance>
+            </InstancesList>
+        </TopModule>
+    </RTLDesignHierarchy>
+    <ModuleInformation>
+        <Module>
+            <Name>conv2d_Pipeline_READ_INPUT</Name>
+            <Loops>
+                <READ_INPUT/>
+            </Loops>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>5.00</TargetClockPeriod>
+                    <ClockUncertainty>1.35</ClockUncertainty>
+                    <EstimatedClockPeriod>2.057</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>27</Best-caseLatency>
+                    <Average-caseLatency>27</Average-caseLatency>
+                    <Worst-caseLatency>27</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.135 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0.135 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.135 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>26</PipelineInitiationInterval>
+                    <PipelineType>loop pipeline stpstp (delay=0 clock cycles(s))</PipelineType>
+                    <PerformancePragma>-</PerformancePragma>
+                </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <READ_INPUT>
+                        <Name>READ_INPUT</Name>
+                        <Slack>3.65</Slack>
+                        <TripCount>25</TripCount>
+                        <isPerfectNested>0</isPerfectNested>
+                        <Latency>25</Latency>
+                        <AbsoluteTimeLatency>0.125 us</AbsoluteTimeLatency>
+                        <PipelineII>1</PipelineII>
+                        <PipelineDepth>2</PipelineDepth>
+                        <PipelineType>yes</PipelineType>
+                        <PerformancePragma>-</PerformancePragma>
+                        <InstanceList/>
+                    </READ_INPUT>
+                </SummaryOfLoopLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:65</SourceLocation>
+                    <SummaryOfLoopViolations>
+                        <READ_INPUT>
+                            <Name>READ_INPUT</Name>
+                            <IssueType>-</IssueType>
+                            <ViolationType>-</ViolationType>
+                            <SourceLocation>C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:47</SourceLocation>
+                        </READ_INPUT>
+                    </SummaryOfLoopViolations>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>430</FF>
+                    <AVAIL_FF>234240</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>156</LUT>
+                    <AVAIL_LUT>117120</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>288</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>1248</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>64</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="READ_INPUT" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln57_fu_449_p2" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:57" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln57" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="READ_INPUT" OPTYPE="add" PRAGMA="" RTLNAME="i_fu_455_p2" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:57" STORAGESUBTYPE="" URAM="0" VARIABLE="i" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="READ_INPUT" OPTYPE="add" PRAGMA="" RTLNAME="add_ln66_fu_464_p2" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:66" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln66" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="READ_INPUT" OPTYPE="add" PRAGMA="" RTLNAME="add_ln47_fu_497_p2" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:47" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln47" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="READ_INPUT" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln47_fu_503_p2" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:47" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln47" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="READ_INPUT" OPTYPE="select" PRAGMA="" RTLNAME="select_ln47_fu_509_p3" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:47" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln47" VISIBLE="false"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>conv2d_Pipeline_READ_WEIGHTS</Name>
+            <Loops>
+                <READ_WEIGHTS/>
+            </Loops>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>5.00</TargetClockPeriod>
+                    <ClockUncertainty>1.35</ClockUncertainty>
+                    <EstimatedClockPeriod>2.042</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>11</Best-caseLatency>
+                    <Average-caseLatency>11</Average-caseLatency>
+                    <Worst-caseLatency>11</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>55.000 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>55.000 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>55.000 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>10</PipelineInitiationInterval>
+                    <PipelineType>loop pipeline stpstp (delay=0 clock cycles(s))</PipelineType>
+                    <PerformancePragma>-</PerformancePragma>
+                </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <READ_WEIGHTS>
+                        <Name>READ_WEIGHTS</Name>
+                        <Slack>3.65</Slack>
+                        <TripCount>9</TripCount>
+                        <isPerfectNested>0</isPerfectNested>
+                        <Latency>9</Latency>
+                        <AbsoluteTimeLatency>45.000 ns</AbsoluteTimeLatency>
+                        <PipelineII>1</PipelineII>
+                        <PipelineDepth>2</PipelineDepth>
+                        <PipelineType>yes</PipelineType>
+                        <PerformancePragma>-</PerformancePragma>
+                        <InstanceList/>
+                    </READ_WEIGHTS>
+                </SummaryOfLoopLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:79</SourceLocation>
+                    <SummaryOfLoopViolations>
+                        <READ_WEIGHTS>
+                            <Name>READ_WEIGHTS</Name>
+                            <IssueType>-</IssueType>
+                            <ViolationType>-</ViolationType>
+                            <SourceLocation>C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:73</SourceLocation>
+                        </READ_WEIGHTS>
+                    </SummaryOfLoopViolations>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>167</FF>
+                    <AVAIL_FF>234240</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>152</LUT>
+                    <AVAIL_LUT>117120</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>288</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>1248</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>64</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="READ_WEIGHTS" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln73_fu_233_p2" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:73" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln73" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="READ_WEIGHTS" OPTYPE="add" PRAGMA="" RTLNAME="i_fu_239_p2" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:73" STORAGESUBTYPE="" URAM="0" VARIABLE="i" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="READ_WEIGHTS" OPTYPE="add" PRAGMA="" RTLNAME="add_ln81_fu_248_p2" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:81" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln81" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="READ_WEIGHTS" OPTYPE="add" PRAGMA="" RTLNAME="add_ln73_1_fu_277_p2" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:73" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln73_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="READ_WEIGHTS" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln73_1_fu_283_p2" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:73" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln73_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="READ_WEIGHTS" OPTYPE="select" PRAGMA="" RTLNAME="select_ln73_fu_289_p3" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:73" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln73" VISIBLE="false"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>conv2d_Pipeline_CONV_OR_CONV_OC2</Name>
+            <Loops>
+                <CONV_OR_CONV_OC2/>
+            </Loops>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>5.00</TargetClockPeriod>
+                    <ClockUncertainty>1.35</ClockUncertainty>
+                    <EstimatedClockPeriod>3.004</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>21</Best-caseLatency>
+                    <Average-caseLatency>21</Average-caseLatency>
+                    <Worst-caseLatency>21</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.105 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0.105 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.105 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>10</PipelineInitiationInterval>
+                    <PipelineType>loop pipeline stpstp (delay=0 clock cycles(s))</PipelineType>
+                    <PerformancePragma>-</PerformancePragma>
+                </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <CONV_OR_CONV_OC2>
+                        <Name>CONV_OR_CONV_OC2</Name>
+                        <Slack>3.65</Slack>
+                        <TripCount>9</TripCount>
+                        <isPerfectNested>1</isPerfectNested>
+                        <Latency>19</Latency>
+                        <AbsoluteTimeLatency>95.000 ns</AbsoluteTimeLatency>
+                        <PipelineII>1</PipelineII>
+                        <PipelineDepth>12</PipelineDepth>
+                        <PipelineType>yes</PipelineType>
+                        <PerformancePragma>-</PerformancePragma>
+                        <InstanceList/>
+                    </CONV_OR_CONV_OC2>
+                </SummaryOfLoopLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:90</SourceLocation>
+                    <SummaryOfLoopViolations>
+                        <CONV_OR_CONV_OC2>
+                            <Name>CONV_OR_CONV_OC2</Name>
+                            <IssueType>-</IssueType>
+                            <ViolationType>-</ViolationType>
+                            <SourceLocation>C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:89</SourceLocation>
+                        </CONV_OR_CONV_OC2>
+                    </SummaryOfLoopViolations>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <DSP>9</DSP>
+                    <AVAIL_DSP>1248</AVAIL_DSP>
+                    <UTIL_DSP>~0</UTIL_DSP>
+                    <FF>1044</FF>
+                    <AVAIL_FF>234240</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>633</LUT>
+                    <AVAIL_LUT>117120</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>288</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>64</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln89_fu_522_p2" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:89" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln89" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln89_fu_528_p2" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:89" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln89" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln90_fu_540_p2" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:90" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln90" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="select" PRAGMA="" RTLNAME="select_ln49_fu_546_p3" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:49" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln49" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln96_fu_555_p2" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:96" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln96" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="select" PRAGMA="" RTLNAME="select_ln89_fu_561_p3" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:89" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln89" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U43" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:97" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_5" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U44" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:97" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_6" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U45" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:97" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_7" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U46" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:97" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_8" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp_slice" LATENCY="3" LOOP="CONV_OR_CONV_OC2" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_16s_16s_24s_24_4_1_U67" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:96" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln96" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp_slice" LATENCY="3" LOOP="CONV_OR_CONV_OC2" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_16s_16s_24s_24_4_1_U67" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:96" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln96_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln96_2_fu_653_p2" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:96" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln96_2" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U51" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:97" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_9" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U52" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:97" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_s" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U53" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:97" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_4" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U54" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:97" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp_slice" LATENCY="3" LOOP="CONV_OR_CONV_OC2" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_16s_16s_24s_24_4_1_U68" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:96" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln96_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp_slice" LATENCY="3" LOOP="CONV_OR_CONV_OC2" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_16s_16s_24s_24_4_1_U68" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:96" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln96_3" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U59" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:97" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U60" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:97" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_10" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U61" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:97" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_11" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U62" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:97" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_12" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp_slice" LATENCY="3" LOOP="CONV_OR_CONV_OC2" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_16s_16s_24s_24_4_1_U69" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:96" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln96_2" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp_slice" LATENCY="3" LOOP="CONV_OR_CONV_OC2" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_16s_16s_24s_24_4_1_U69" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:96" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln96_4" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U47" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:97" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_14" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U48" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:97" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_15" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp_slice" LATENCY="3" LOOP="CONV_OR_CONV_OC2" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_16s_16s_24s_24_4_1_U70" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:96" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln96_3" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp_slice" LATENCY="3" LOOP="CONV_OR_CONV_OC2" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_16s_16s_24s_24_4_1_U70" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:96" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln96_5" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U55" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:97" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_17" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U56" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:97" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_18" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp_slice" LATENCY="3" LOOP="CONV_OR_CONV_OC2" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_16s_16s_24s_24_4_1_U71" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:96" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln96_4" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp_slice" LATENCY="3" LOOP="CONV_OR_CONV_OC2" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_16s_16s_24s_24_4_1_U71" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:96" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln96_6" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U63" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:97" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_19" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U64" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:97" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_20" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp_slice" LATENCY="3" LOOP="CONV_OR_CONV_OC2" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_16s_16s_24s_24_4_1_U72" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:96" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln96_5" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp_slice" LATENCY="3" LOOP="CONV_OR_CONV_OC2" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_16s_16s_24s_24_4_1_U72" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:96" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln96_7" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U49" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:97" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_21" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U50" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:97" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_22" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp_slice" LATENCY="3" LOOP="CONV_OR_CONV_OC2" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_16s_16s_24s_24_4_1_U73" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:96" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln96_6" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp_slice" LATENCY="3" LOOP="CONV_OR_CONV_OC2" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_16s_16s_24s_24_4_1_U73" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:96" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln96_8" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U57" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:97" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_23" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U58" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:97" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_24" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp_slice" LATENCY="3" LOOP="CONV_OR_CONV_OC2" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_16s_16s_24s_24_4_1_U74" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:96" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln96_7" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp_slice" LATENCY="3" LOOP="CONV_OR_CONV_OC2" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_16s_16s_24s_24_4_1_U74" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:96" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln96_9" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U65" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:97" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_25" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="CONV_OR_CONV_OC2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U66" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:97" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_26" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp_slice" LATENCY="3" LOOP="CONV_OR_CONV_OC2" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_16s_16s_24s_24_4_1_U75" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:96" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln96_8" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp_slice" LATENCY="3" LOOP="CONV_OR_CONV_OC2" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_16s_16s_24s_24_4_1_U75" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:96" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln96_10" VISIBLE="true"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>conv2d_Pipeline_WRITE_OUTPUT</Name>
+            <Loops>
+                <WRITE_OUTPUT/>
+            </Loops>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>5.00</TargetClockPeriod>
+                    <ClockUncertainty>1.35</ClockUncertainty>
+                    <EstimatedClockPeriod>2.042</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>11</Best-caseLatency>
+                    <Average-caseLatency>11</Average-caseLatency>
+                    <Worst-caseLatency>11</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>55.000 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>55.000 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>55.000 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>10</PipelineInitiationInterval>
+                    <PipelineType>loop pipeline stpstp (delay=0 clock cycles(s))</PipelineType>
+                    <PerformancePragma>-</PerformancePragma>
+                </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <WRITE_OUTPUT>
+                        <Name>WRITE_OUTPUT</Name>
+                        <Slack>3.65</Slack>
+                        <TripCount>9</TripCount>
+                        <isPerfectNested>0</isPerfectNested>
+                        <Latency>9</Latency>
+                        <AbsoluteTimeLatency>45.000 ns</AbsoluteTimeLatency>
+                        <PipelineII>1</PipelineII>
+                        <PipelineDepth>2</PipelineDepth>
+                        <PipelineType>yes</PipelineType>
+                        <PerformancePragma>-</PerformancePragma>
+                        <InstanceList/>
+                    </WRITE_OUTPUT>
+                </SummaryOfLoopLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:112</SourceLocation>
+                    <SummaryOfLoopViolations>
+                        <WRITE_OUTPUT>
+                            <Name>WRITE_OUTPUT</Name>
+                            <IssueType>-</IssueType>
+                            <ViolationType>-</ViolationType>
+                            <SourceLocation>C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:109</SourceLocation>
+                        </WRITE_OUTPUT>
+                    </SummaryOfLoopViolations>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>36</FF>
+                    <AVAIL_FF>234240</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>200</LUT>
+                    <AVAIL_LUT>117120</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>288</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>1248</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>64</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="WRITE_OUTPUT" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln109_fu_194_p2" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:109" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln109" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="WRITE_OUTPUT" OPTYPE="add" PRAGMA="" RTLNAME="i_fu_200_p2" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:109" STORAGESUBTYPE="" URAM="0" VARIABLE="i" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="WRITE_OUTPUT" OPTYPE="add" PRAGMA="" RTLNAME="add_ln110_fu_212_p2" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:110" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln110" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="WRITE_OUTPUT" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln110_fu_218_p2" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:110" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln110" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="WRITE_OUTPUT" OPTYPE="select" PRAGMA="" RTLNAME="select_ln110_fu_224_p3" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:110" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln110" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="WRITE_OUTPUT" OPTYPE="add" PRAGMA="" RTLNAME="add_ln113_fu_232_p2" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:113" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln113" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="WRITE_OUTPUT" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U122" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:116" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="WRITE_OUTPUT" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U123" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:116" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="WRITE_OUTPUT" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U124" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:116" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="WRITE_OUTPUT" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U125" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:116" STORAGESUBTYPE="" URAM="0" VARIABLE="p_0" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="WRITE_OUTPUT" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln118_fu_332_p2" SOURCE="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:118" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln118" VISIBLE="false"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>conv2d</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>5.00</TargetClockPeriod>
+                    <ClockUncertainty>1.35</ClockUncertainty>
+                    <EstimatedClockPeriod>3.004</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>66</Best-caseLatency>
+                    <Average-caseLatency>66</Average-caseLatency>
+                    <Worst-caseLatency>66</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.330 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0.330 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.330 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>67</PipelineInitiationInterval>
+                    <PipelineType>no</PipelineType>
+                    <PerformancePragma>-</PerformancePragma>
+                </SummaryOfOverallLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:23</SourceLocation>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <DSP>9</DSP>
+                    <AVAIL_DSP>1248</AVAIL_DSP>
+                    <UTIL_DSP>~0</UTIL_DSP>
+                    <FF>1726</FF>
+                    <AVAIL_FF>234240</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>1248</LUT>
+                    <AVAIL_LUT>117120</AVAIL_LUT>
+                    <UTIL_LUT>1</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>288</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>64</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+        </Module>
+    </ModuleInformation>
+    <FIFOInformation/>
+    <UserConfigCommands>
+        <config_export vivado_clock="5ns"/>
+    </UserConfigCommands>
+    <Args>
+        <Arg ArgName="in_stream" index="0" direction="in" srcType="stream&lt;hls::axis&lt;ap_uint&lt;16&gt;, 0UL, 0UL, 0UL, (unsigned char)'8', false&gt;, 0&gt;&amp;" srcSize="64">
+            <hwRefs>
+                <hwRef type="interface" interface="in_stream" name="" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="weight_stream" index="1" direction="in" srcType="stream&lt;hls::axis&lt;ap_uint&lt;16&gt;, 0UL, 0UL, 0UL, (unsigned char)'8', false&gt;, 0&gt;&amp;" srcSize="64">
+            <hwRefs>
+                <hwRef type="interface" interface="weight_stream" name="" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="bias" index="2" direction="in" srcType="ap_fixed&lt;16, 8, (ap_q_mode)5, (ap_o_mode)3, 0&gt;" srcSize="16">
+            <hwRefs>
+                <hwRef type="port" interface="bias" name="bias" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="out_stream" index="3" direction="out" srcType="stream&lt;hls::axis&lt;ap_uint&lt;16&gt;, 0UL, 0UL, 0UL, (unsigned char)'8', false&gt;, 0&gt;&amp;" srcSize="64">
+            <hwRefs>
+                <hwRef type="interface" interface="out_stream" name="" usage="data" direction="out"/>
+            </hwRefs>
+        </Arg>
+    </Args>
+    <Interfaces>
+        <Interface InterfaceName="ap_clk" type="clock" busTypeName="clock" mode="slave">
+            <busParams>
+                <busParam busParamName="ASSOCIATED_BUSIF">in_stream:weight_stream:out_stream</busParam>
+                <busParam busParamName="ASSOCIATED_RESET">ap_rst_n</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="ap_clk">CLK</portMap>
+            </portMaps>
+            <ports>
+                <port>ap_clk</port>
+            </ports>
+        </Interface>
+        <Interface InterfaceName="ap_rst_n" type="reset" busTypeName="reset" mode="slave">
+            <busParams>
+                <busParam busParamName="POLARITY">ACTIVE_LOW</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="ap_rst_n">RST</portMap>
+            </portMaps>
+            <ports>
+                <port>ap_rst_n</port>
+            </ports>
+        </Interface>
+        <Interface InterfaceName="ap_ctrl" type="ap_ctrl" busTypeName="acc_handshake" mode="slave">
+            <portMaps>
+                <portMap portMapName="ap_start">start</portMap>
+                <portMap portMapName="ap_done">done</portMap>
+                <portMap portMapName="ap_idle">idle</portMap>
+                <portMap portMapName="ap_ready">ready</portMap>
+            </portMaps>
+            <ports>
+                <port>ap_done</port>
+                <port>ap_idle</port>
+                <port>ap_ready</port>
+                <port>ap_start</port>
+            </ports>
+        </Interface>
+        <Interface InterfaceName="in_stream" type="axi4stream" busTypeName="axis" mode="slave" direction="in" dataWidth="16" portPrefix="in_stream_">
+            <ports>
+                <port>in_stream_TDATA</port>
+                <port>in_stream_TKEEP</port>
+                <port>in_stream_TLAST</port>
+                <port>in_stream_TREADY</port>
+                <port>in_stream_TSTRB</port>
+                <port>in_stream_TVALID</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="axis" register_option="1" register_mode="both" argName="in_stream"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="weight_stream" type="axi4stream" busTypeName="axis" mode="slave" direction="in" dataWidth="16" portPrefix="weight_stream_">
+            <ports>
+                <port>weight_stream_TDATA</port>
+                <port>weight_stream_TKEEP</port>
+                <port>weight_stream_TLAST</port>
+                <port>weight_stream_TREADY</port>
+                <port>weight_stream_TSTRB</port>
+                <port>weight_stream_TVALID</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="axis" register_option="1" register_mode="both" argName="weight_stream"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="bias" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="16">
+            <portMaps>
+                <portMap portMapName="bias">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>bias</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="bias"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="out_stream" type="axi4stream" busTypeName="axis" mode="master" direction="out" dataWidth="16" portPrefix="out_stream_">
+            <ports>
+                <port>out_stream_TDATA</port>
+                <port>out_stream_TKEEP</port>
+                <port>out_stream_TLAST</port>
+                <port>out_stream_TREADY</port>
+                <port>out_stream_TSTRB</port>
+                <port>out_stream_TVALID</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="axis" register_option="1" register_mode="both" argName="out_stream"/>
+            </constraints>
+        </Interface>
+    </Interfaces>
+    <ReportHWInterface>
+        <section name="HW Interfaces" level="0">
+            <item name="AXIS">
+                <table>
+                    <keys size="9">Interface, Direction, Register Mode, TDATA, TKEEP, TLAST, TREADY, TSTRB, TVALID</keys>
+                    <column name="in_stream">in, both, 16, 2, 1, 1, 2, 1</column>
+                    <column name="out_stream">out, both, 16, 2, 1, 1, 2, 1</column>
+                    <column name="weight_stream">in, both, 16, 2, 1, 1, 2, 1</column>
+                </table>
+            </item>
+            <item name="Other Ports">
+                <table>
+                    <keys size="4">Port, Mode, Direction, Bitwidth</keys>
+                    <column name="bias">ap_none, in, 16</column>
+                </table>
+            </item>
+            <item name="TOP LEVEL CONTROL">
+                <table>
+                    <keys size="3">Interface, Type, Ports</keys>
+                    <column name="ap_clk">clock, ap_clk</column>
+                    <column name="ap_rst_n">reset, ap_rst_n</column>
+                    <column name="ap_ctrl">ap_ctrl_hs, ap_done ap_idle ap_ready ap_start</column>
+                </table>
+            </item>
+        </section>
+    </ReportHWInterface>
+    <ReportSWInterface>
+        <section name="SW I/O Information" level="0">
+            <item name="Top Function Arguments">
+                <table>
+                    <keys size="3">Argument, Direction, Datatype</keys>
+                    <column name="in_stream">in, stream&lt;hls::axis&lt;ap_uint&lt;16&gt; 0UL 0UL 0UL (unsigned char)'8' false&gt; 0&gt;&amp;</column>
+                    <column name="weight_stream">in, stream&lt;hls::axis&lt;ap_uint&lt;16&gt; 0UL 0UL 0UL (unsigned char)'8' false&gt; 0&gt;&amp;</column>
+                    <column name="bias">in, ap_fixed&lt;16 8 (ap_q_mode)5 (ap_o_mode)3 0&gt;</column>
+                    <column name="out_stream">out, stream&lt;hls::axis&lt;ap_uint&lt;16&gt; 0UL 0UL 0UL (unsigned char)'8' false&gt; 0&gt;&amp;</column>
+                </table>
+            </item>
+            <item name="SW-to-HW Mapping">
+                <table>
+                    <keys size="3">Argument, HW Interface, HW Type</keys>
+                    <column name="in_stream">in_stream, interface</column>
+                    <column name="weight_stream">weight_stream, interface</column>
+                    <column name="bias">bias, port</column>
+                    <column name="out_stream">out_stream, interface</column>
+                </table>
+            </item>
+        </section>
+    </ReportSWInterface>
+    <ResolutionUrl key="ZZZ">docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&amp;url=ug1448-hls-guidance&amp;resourceid=ZZZ.html</ResolutionUrl>
+    <PragmaReport>
+        <Pragma type="interface" location="../../files/conv2d.cpp:38" status="valid" parentFunction="conv2d" variable="in_stream" isDirective="0" options="axis port=in_stream register"/>
+        <Pragma type="interface" location="../../files/conv2d.cpp:39" status="valid" parentFunction="conv2d" variable="weight_stream" isDirective="0" options="axis port=weight_stream register"/>
+        <Pragma type="interface" location="../../files/conv2d.cpp:40" status="valid" parentFunction="conv2d" variable="out_stream" isDirective="0" options="axis port=out_stream register"/>
+        <Pragma type="interface" location="../../files/conv2d.cpp:41" status="valid" parentFunction="conv2d" variable="bias" isDirective="0" options="ap_none port=bias"/>
+        <Pragma type="interface" location="../../files/conv2d.cpp:42" status="invalid" parentFunction="conv2d" variable="" isDirective="0" options="ap_ctrl_none bundle=control">
+            <Msg msg_id="207-7023" msg_severity="WARNING" msg_body="missing argument for 'port'"/>
+        </Pragma>
+        <Pragma type="array_partition" location="../../files/conv2d.cpp:51" status="valid" parentFunction="conv2d" variable="input" isDirective="0" options="variable=input complete dim=0"/>
+        <Pragma type="array_partition" location="../../files/conv2d.cpp:52" status="valid" parentFunction="conv2d" variable="weights" isDirective="0" options="variable=weights complete dim=0"/>
+        <Pragma type="array_partition" location="../../files/conv2d.cpp:53" status="valid" parentFunction="conv2d" variable="output" isDirective="0" options="variable=output complete dim=0"/>
+        <Pragma type="pipeline" location="../../files/conv2d.cpp:58" status="valid" parentFunction="conv2d" variable="" isDirective="0" options="ii=1"/>
+        <Pragma type="pipeline" location="../../files/conv2d.cpp:74" status="valid" parentFunction="conv2d" variable="" isDirective="0" options="ii=1"/>
+        <Pragma type="pipeline" location="../../files/conv2d.cpp:91" status="valid" parentFunction="conv2d" variable="" isDirective="0" options="ii=1"/>
+        <Pragma type="pipeline" location="../../files/conv2d.cpp:110" status="valid" parentFunction="conv2d" variable="" isDirective="0" options="ii=1"/>
+        <Pragma type="loop_flatten" location="../../files/conv2d.cpp:89" status="valid" parentFunction="conv2d" variable="" isDirective="0" options=" "/>
+    </PragmaReport>
+    <AutoPragmaReport>
+        <AutoPragma type="loop_flatten" parentFunction="conv2d" options=" " pragmaLocId="../../files/conv2d.cpp:89:0" pragmaLocOpt="conv2d/CONV_OR" srcPragmaType="pipeline" srcPragmaLoc="../../files/conv2d.cpp:91" srcPragmaSource="source-pragma" srcPragmaSourceDesc="pipeline ../../files/conv2d.cpp:91" srcIsDirective="0" srcIsSlxDirective="0" srcIsCsimDirective="0" directiveIni="syn.directive.loop_flatten=conv2d/CONV_OR  " loopName="CONV_OR" loopLoc="C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:89:18"/>
+    </AutoPragmaReport>
+</profile>

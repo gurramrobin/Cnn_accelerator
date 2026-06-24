@@ -1,0 +1,23 @@
+<dict>
+  <key>main-file</key>
+  <string>C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/.autopilot/db/maxpool.pp.0.cpp</string>
+  <key>diagnostics</key>
+  <array>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp</string>
+      <key>line</key>
+      <integer>23</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>missing argument for &apos;port&apos;</string>
+      <key>ID</key>
+      <integer>7023</integer>
+      <key>WarningOption</key>
+      <string>invalid-hls-pragmas</string>
+    </dict>
+  </array>
+</dict>

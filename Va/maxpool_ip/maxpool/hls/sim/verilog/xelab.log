@@ -1,0 +1,67 @@
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_maxpool_top xil_defaultlib.glbl -Oenable_linking_all_libraries -prj maxpool.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_1_21 -L floating_point_v7_0_26 --lib ieee_proposed=./ieee_proposed -L uvm -relax -i ./svr -i ./axivip -i ./svtb -i ./file_agent -i ./maxpool_subsystem -s maxpool 
+Multi-threading is on. Using 26 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/sim/verilog/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/sim/verilog/AESL_deadlock_idx0_monitor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_idx0_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/sim/verilog/AESL_deadlock_kernel_monitor_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_kernel_monitor_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/sim/verilog/maxpool.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_maxpool_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/sim/verilog/maxpool.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maxpool
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/sim/verilog/maxpool_flow_control_loop_pipe_sequential_init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maxpool_flow_control_loop_pipe_sequential_init
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/sim/verilog/maxpool_maxpool_Pipeline_POOL_OR_POOL_OC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maxpool_maxpool_Pipeline_POOL_OR_POOL_OC
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/sim/verilog/maxpool_maxpool_Pipeline_READ_INPUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maxpool_maxpool_Pipeline_READ_INPUT
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/sim/verilog/maxpool_maxpool_Pipeline_WRITE_OUTPUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maxpool_maxpool_Pipeline_WRITE_OUTPUT
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/sim/verilog/maxpool_regslice_both.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maxpool_regslice_both
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/sim/verilog/file_agent/file_agent_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/sim/verilog/svr/svr_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/sim/verilog/svr/svr_if.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/sim/verilog/maxpool_subsystem/maxpool_subsystem_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/sim/verilog/svtb/misc_interface.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/maxpool_ip/maxpool/hls/sim/verilog/svtb/sv_module_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sv_module_top
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/proj/primebuilds/9999.0_PRIME_0428_0031/installs/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 4356. Module uvm_pkg doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_sv_module_top_sv
+Compiling package uvm.uvm_pkg
+Compiling package std.std
+Compiling package xil_defaultlib.svr_pkg
+Compiling package xil_defaultlib.file_agent_pkg
+Compiling package xil_defaultlib.maxpool_subsystem_pkg
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.maxpool_flow_control_loop_pipe_s...
+Compiling module xil_defaultlib.maxpool_maxpool_Pipeline_READ_IN...
+Compiling module xil_defaultlib.maxpool_maxpool_Pipeline_POOL_OR...
+Compiling module xil_defaultlib.maxpool_maxpool_Pipeline_WRITE_O...
+Compiling module xil_defaultlib.maxpool_regslice_both(DataWidth=...
+Compiling module xil_defaultlib.maxpool_regslice_both(DataWidth=...
+Compiling module xil_defaultlib.maxpool_regslice_both(DataWidth=...
+Compiling module xil_defaultlib.maxpool
+Compiling module xil_defaultlib.misc_interface_default
+Compiling module xil_defaultlib.svr_if(DATA_WIDTH=21)
+Compiling module xil_defaultlib.sv_module_top
+Compiling module xil_defaultlib.AESL_deadlock_idx0_monitor
+Compiling module xil_defaultlib.AESL_deadlock_kernel_monitor_top...
+Compiling module xil_defaultlib.nodf_module_intf_default
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=1)
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_maxpool_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot maxpool

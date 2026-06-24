@@ -1,0 +1,190 @@
+================================================================
+== Vivado Place & Route Results
+================================================================
++ General Information:
+    * Date:            Thu Jun 11 10:32:56 +0530 2026
+    * Version:         2025.2 (Build 6295257 on Nov 14 2025)
+    * Project:         conv2d
+    * Solution:        hls (Vivado IP Flow Target)
+    * Product family:  zynquplus
+    * Target device:   xck26-sfvc784-2LV-c
+
+
+================================================================
+== Run Constraints & Options
+================================================================
++ Design Constraints & Options:
+    * Place & Route target clock:  5 ns
+    * C-Synthesis target clock:    5 ns
+    * C-Synthesis uncertainty:     27%
+
++ RTL Synthesis Options:
+    * config_export -vivado_synth_strategy:     default
+    * config_export -vivado_synth_design_args:  -directive sdx_optimization_effort_high
+
++ Place & Route Options:
+    * config_export -vivado_impl_strategy:  default
+    * config_export -vivado_phys_opt:       auto
+
++ Reporting Options:
+    * config_export -vivado_report_level:      2
+    * config_export -vivado_max_timing_paths:  10
+
+
+================================================================
+== Place & Route Resource Summary
+================================================================
+LUT:              463
+FF:               981
+DSP:              9
+BRAM:             0
+URAM:             0
+SRL:              61
+
+
+================================================================
+== Place & Route Timing Summary
+================================================================
+* Timing was met
++----------------+-------------+
+| Timing         | Period (ns) |
++----------------+-------------+
+| Target         | 5.000       |
+| Post-Synthesis | 1.986       |
+| Post-Route     | 3.227       |
++----------------+-------------+
+
+
+================================================================
+== Place & Route Resources
+================================================================
++-------------------------------------+-----+----+-----+------+------+-----+--------+------+---------+----------+--------+
+| Name                                | LUT | FF | DSP | BRAM | URAM | SRL | Pragma | Impl | Latency | Variable | Source |
++-------------------------------------+-----+----+-----+------+------+-----+--------+------+---------+----------+--------+
+| inst                                |     |    |     |      |      | 61  |        |      |         |          |        |
+|   (inst)                            |     |    |     |      |      | 61  |        |      |         |          |        |
+|   flow_control_loop_pipe_U          |     |    |     |      |      |     |        |      |         |          |        |
+|   mac_muladd_16s_16s_24s_24_4_1_U25 |     |    |     |      |      |     |        |      |         |          |        |
+|   mac_muladd_16s_16s_24s_24_4_1_U26 |     |    |     |      |      |     |        |      |         |          |        |
+|   mac_muladd_16s_16s_24s_24_4_1_U27 |     |    |     |      |      |     |        |      |         |          |        |
+|   mac_muladd_16s_16s_24s_24_4_1_U28 |     |    |     |      |      |     |        |      |         |          |        |
+|   mac_muladd_16s_16s_24s_24_4_1_U29 |     |    |     |      |      |     |        |      |         |          |        |
+|   mac_muladd_16s_16s_24s_24_4_1_U30 |     |    |     |      |      |     |        |      |         |          |        |
+|   mac_muladd_16s_16s_24s_24_4_1_U31 |     |    |     |      |      |     |        |      |         |          |        |
+|   mac_muladd_16s_16s_24s_24_4_1_U32 |     |    |     |      |      |     |        |      |         |          |        |
+|   mac_muladd_16s_16s_24s_24_4_1_U33 |     |    |     |      |      |     |        |      |         |          |        |
++-------------------------------------+-----+----+-----+------+------+-----+--------+------+---------+----------+--------+
+
+
+================================================================
+== Place & Route Fail Fast
+================================================================
++-----------------------------------------------------------+-----------+--------+--------+
+| Criteria                                                  | Guideline | Actual | Status |
++-----------------------------------------------------------+-----------+--------+--------+
+| LUT                                                       | 70%       | 0.40%  | OK     |
+| FD                                                        | 50%       | 0.42%  | OK     |
+| LUTRAM+SRL                                                | 25%       | 0.11%  | OK     |
+| CARRY8                                                    | 25%       | 0.00%  | OK     |
+| MUXF7                                                     | 15%       | 0.00%  | OK     |
+| DSP                                                       | 80%       | 0.72%  | OK     |
+| RAMB/FIFO                                                 | 80%       | 0.00%  | OK     |
+| URAM                                                      | 80%       | 0.00%  | OK     |
+| DSP+RAMB+URAM (Avg)                                       | 70%       | 0.72%  | OK     |
+| BUFGCE* + BUFGCTRL                                        | 24        | 0      | OK     |
+| DONT_TOUCH (cells/nets)                                   | 0         | 0      | OK     |
+| MARK_DEBUG (nets)                                         | 0         | 0      | OK     |
+| Control Sets                                              | 2196      | 3      | OK     |
+| Average Fanout for modules > 100k cells                   | 4         | 0.89   | OK     |
+| Max Average Fanout for modules > 100k cells               | 4         | 0      | OK     |
+| Non-FD high fanout nets > 10k loads                       | 0         | 0      | OK     |
++-----------------------------------------------------------+-----------+--------+--------+
+| TIMING-6 (No common primary clock between related clocks) | 0         | 0      | OK     |
+| TIMING-7 (No common node between related clocks)          | 0         | 0      | OK     |
+| TIMING-8 (No common period between related clocks)        | 0         | 0      | OK     |
+| TIMING-14 (LUT on the clock tree)                         | 0         | 0      | OK     |
+| TIMING-35 (No common node in paths with the same clock)   | 0         | 0      | OK     |
++-----------------------------------------------------------+-----------+--------+--------+
+| Number of paths above max LUT budgeting (0.391ns)         | 0         | 0      | OK     |
+| Number of paths above max Net budgeting (0.263ns)         | 0         | 0      | OK     |
++-----------------------------------------------------------+-----------+--------+--------+
+
+
+================================================================
+== Place & Route Timing Paths
+================================================================
+* Timing was met
++-------+-------+----------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+--------------+------------+----------------+----------------+--------------+
+| Path  | SLACK | STARTPOINT PIN                                                                                                 | ENDPOINT PIN                                                                                                           | LOGIC LEVELS | MAX FANOUT | DATAPATH DELAY | DATAPATH LOGIC | DATAPATH NET |
+|       |       |                                                                                                                |                                                                                                                        |              |            |                |          DELAY |        DELAY |
++-------+-------+----------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+--------------+------------+----------------+----------------+--------------+
+| Path1 | 1.773 | mac_muladd_16s_16s_24s_24_4_1_U27/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_OUTPUT_INST/CLK | mac_muladd_16s_16s_24s_24_4_1_U28/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[28] |            2 |         25 |          3.184 |          1.197 |        1.987 |
+| Path2 | 1.773 | mac_muladd_16s_16s_24s_24_4_1_U27/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_OUTPUT_INST/CLK | mac_muladd_16s_16s_24s_24_4_1_U28/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[29] |            2 |         25 |          3.184 |          1.197 |        1.987 |
+| Path3 | 1.773 | mac_muladd_16s_16s_24s_24_4_1_U27/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_OUTPUT_INST/CLK | mac_muladd_16s_16s_24s_24_4_1_U28/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[30] |            2 |         25 |          3.184 |          1.197 |        1.987 |
+| Path4 | 1.773 | mac_muladd_16s_16s_24s_24_4_1_U27/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_OUTPUT_INST/CLK | mac_muladd_16s_16s_24s_24_4_1_U28/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[31] |            2 |         25 |          3.184 |          1.197 |        1.987 |
+| Path5 | 1.773 | mac_muladd_16s_16s_24s_24_4_1_U27/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_OUTPUT_INST/CLK | mac_muladd_16s_16s_24s_24_4_1_U28/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_OUTPUT_INST/ALU_OUT[32] |            2 |         25 |          3.184 |          1.197 |        1.987 |
++-------+-------+----------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+--------------+------------+----------------+----------------+--------------+
+
+    +------------------------------------------------------------------------------------------------------------+------------------------+
+    | Path1 Cells                                                                                                | Primitive Type         |
+    +------------------------------------------------------------------------------------------------------------+------------------------+
+    | mac_muladd_16s_16s_24s_24_4_1_U27/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_OUTPUT_INST | ARITHMETIC.DSP.DSP48E2 |
+    | mac_muladd_16s_16s_24s_24_4_1_U28/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_C_DATA_INST | ARITHMETIC.DSP.DSP48E2 |
+    | mac_muladd_16s_16s_24s_24_4_1_U28/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_ALU_INST    | ARITHMETIC.DSP.DSP48E2 |
+    | mac_muladd_16s_16s_24s_24_4_1_U28/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_OUTPUT_INST | ARITHMETIC.DSP.DSP48E2 |
+    +------------------------------------------------------------------------------------------------------------+------------------------+
+
+    +------------------------------------------------------------------------------------------------------------+------------------------+
+    | Path2 Cells                                                                                                | Primitive Type         |
+    +------------------------------------------------------------------------------------------------------------+------------------------+
+    | mac_muladd_16s_16s_24s_24_4_1_U27/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_OUTPUT_INST | ARITHMETIC.DSP.DSP48E2 |
+    | mac_muladd_16s_16s_24s_24_4_1_U28/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_C_DATA_INST | ARITHMETIC.DSP.DSP48E2 |
+    | mac_muladd_16s_16s_24s_24_4_1_U28/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_ALU_INST    | ARITHMETIC.DSP.DSP48E2 |
+    | mac_muladd_16s_16s_24s_24_4_1_U28/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_OUTPUT_INST | ARITHMETIC.DSP.DSP48E2 |
+    +------------------------------------------------------------------------------------------------------------+------------------------+
+
+    +------------------------------------------------------------------------------------------------------------+------------------------+
+    | Path3 Cells                                                                                                | Primitive Type         |
+    +------------------------------------------------------------------------------------------------------------+------------------------+
+    | mac_muladd_16s_16s_24s_24_4_1_U27/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_OUTPUT_INST | ARITHMETIC.DSP.DSP48E2 |
+    | mac_muladd_16s_16s_24s_24_4_1_U28/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_C_DATA_INST | ARITHMETIC.DSP.DSP48E2 |
+    | mac_muladd_16s_16s_24s_24_4_1_U28/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_ALU_INST    | ARITHMETIC.DSP.DSP48E2 |
+    | mac_muladd_16s_16s_24s_24_4_1_U28/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_OUTPUT_INST | ARITHMETIC.DSP.DSP48E2 |
+    +------------------------------------------------------------------------------------------------------------+------------------------+
+
+    +------------------------------------------------------------------------------------------------------------+------------------------+
+    | Path4 Cells                                                                                                | Primitive Type         |
+    +------------------------------------------------------------------------------------------------------------+------------------------+
+    | mac_muladd_16s_16s_24s_24_4_1_U27/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_OUTPUT_INST | ARITHMETIC.DSP.DSP48E2 |
+    | mac_muladd_16s_16s_24s_24_4_1_U28/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_C_DATA_INST | ARITHMETIC.DSP.DSP48E2 |
+    | mac_muladd_16s_16s_24s_24_4_1_U28/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_ALU_INST    | ARITHMETIC.DSP.DSP48E2 |
+    | mac_muladd_16s_16s_24s_24_4_1_U28/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_OUTPUT_INST | ARITHMETIC.DSP.DSP48E2 |
+    +------------------------------------------------------------------------------------------------------------+------------------------+
+
+    +------------------------------------------------------------------------------------------------------------+------------------------+
+    | Path5 Cells                                                                                                | Primitive Type         |
+    +------------------------------------------------------------------------------------------------------------+------------------------+
+    | mac_muladd_16s_16s_24s_24_4_1_U27/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_OUTPUT_INST | ARITHMETIC.DSP.DSP48E2 |
+    | mac_muladd_16s_16s_24s_24_4_1_U28/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_C_DATA_INST | ARITHMETIC.DSP.DSP48E2 |
+    | mac_muladd_16s_16s_24s_24_4_1_U28/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_ALU_INST    | ARITHMETIC.DSP.DSP48E2 |
+    | mac_muladd_16s_16s_24s_24_4_1_U28/conv2d_mac_muladd_16s_16s_24s_24_4_1_DSP48_0_U/p_reg_reg/DSP_OUTPUT_INST | ARITHMETIC.DSP.DSP48E2 |
+    +------------------------------------------------------------------------------------------------------------+------------------------+
+
+
+================================================================
+== Place & Route Vivado Reports
+================================================================
++--------------------------+----------------------------------------------------------------+
+| Report Type              | Report Location                                                |
++--------------------------+----------------------------------------------------------------+
+| design_analysis          | impl/verilog/report/conv2d_design_analysis_routed.rpt          |
+| failfast                 | impl/verilog/report/conv2d_failfast_routed.rpt                 |
+| power                    | impl/verilog/report/conv2d_power_routed.rpt                    |
+| status                   | impl/verilog/report/conv2d_status_routed.rpt                   |
+| timing                   | impl/verilog/report/conv2d_timing_routed.rpt                   |
+| timing_paths             | impl/verilog/report/conv2d_timing_paths_routed.rpt             |
+| utilization              | impl/verilog/report/conv2d_utilization_routed.rpt              |
+| utilization_hierarchical | impl/verilog/report/conv2d_utilization_hierarchical_routed.rpt |
++--------------------------+----------------------------------------------------------------+
+
+

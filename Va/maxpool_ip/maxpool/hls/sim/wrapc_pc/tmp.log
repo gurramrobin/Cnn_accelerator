@@ -1,0 +1,11 @@
+==============================
+MaxPool Testbench (AXI-Stream)
+==============================
+  pool[0][0] =     6  expected=6  PASS
+  pool[0][1] =     4  expected=4  PASS
+  pool[1][0] =     7  expected=7  PASS
+  pool[1][1] =     9  expected=9  PASS
+==============================
+PASS: 4  FAIL: 0
+RESULT: ALL TESTS PASSED
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 16

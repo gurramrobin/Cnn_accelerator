@@ -1,0 +1,4 @@
+,AESL_inst_maxpool,,module_status1.csv
+,grp_maxpool_Pipeline_READ_INPUT_fu_132,,module_status2.csv
+,grp_maxpool_Pipeline_POOL_OR_POOL_OC_fu_160,,module_status3.csv
+,grp_maxpool_Pipeline_WRITE_OUTPUT_fu_184,,module_status4.csv

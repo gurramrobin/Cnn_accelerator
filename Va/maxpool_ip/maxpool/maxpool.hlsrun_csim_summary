@@ -1,0 +1,157 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\LAB2_PC10\\Desktop\\CHINNA\\HLS_workspace\\maxpool_ip\\maxpool\\maxpool.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "06/11/26 15:53:51",
+ "timestampMillis": "1781173431887",
+ "buildStep": {
+  "cmdId": "dd545d79-a09e-419d-b4b9-b3f8d2fa7575",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\LAB2_PC10\\Desktop\\CHINNA\\HLS_workspace\\maxpool_ip\\maxpool\\logs\\maxpool.steps.log",
+  "commandLine": "C:/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Users\\LAB2_PC10\\Desktop\\CHINNA\\HLS_workspace\\maxpool_ip\\hls_config.cfg --work_dir maxpool ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "C:\\Users\\LAB2_PC10\\Desktop\\CHINNA\\HLS_workspace\\maxpool_ip\\hls_config.cfg",
+   "--work_dir",
+   "maxpool"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\LAB2_PC10\\Desktop\\CHINNA\\HLS_workspace\\maxpool_ip"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/11/26 15:53:51",
+ "timestampMillis": "1781173431888",
+ "status": {
+  "cmdId": "dd545d79-a09e-419d-b4b9-b3f8d2fa7575",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "06/11/26 15:53:56",
+ "timestampMillis": "1781173436399",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "maxpool",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\LAB2_PC10\\Desktop\\CHINNA\\files\\maxpool.cpp",
+     "C:/Users\\LAB2_PC10\\Desktop\\CHINNA\\files\\maxpool.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "06/11/26 15:53:56",
+ "timestampMillis": "1781173436400",
+ "buildStep": {
+  "cmdId": "5eff6c0f-8fd6-4b58-acd7-0b3ca1b34feb",
+  "name": "",
+  "logFile": "C:/Users\\LAB2_PC10\\Desktop\\CHINNA\\HLS_workspace\\maxpool_ip\\maxpool\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\LAB2_PC10\\Desktop\\CHINNA\\HLS_workspace\\maxpool_ip"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/11/26 15:53:56",
+ "timestampMillis": "1781173436400",
+ "status": {
+  "cmdId": "5eff6c0f-8fd6-4b58-acd7-0b3ca1b34feb",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/11/26 15:54:04",
+ "timestampMillis": "1781173444274",
+ "status": {
+  "cmdId": "5eff6c0f-8fd6-4b58-acd7-0b3ca1b34feb",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/11/26 15:54:04",
+ "timestampMillis": "1781173444389",
+ "status": {
+  "cmdId": "dd545d79-a09e-419d-b4b9-b3f8d2fa7575",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/11/26 15:54:04",
+ "timestampMillis": "1781173444389",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/11/26 15:54:04",
+ "timestampMillis": "1781173444389",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

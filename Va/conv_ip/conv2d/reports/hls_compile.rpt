@@ -1,0 +1,211 @@
+
+
+================================================================
+== Synthesis Summary Report of 'conv2d'
+================================================================
++ General Information: 
+    * Date:           Thu Jun 11 15:51:16 2026
+    * Version:        2025.2 (Build 6295257 on Nov 14 2025)
+    * Project:        conv2d
+    * Solution:       hls (Vivado IP Flow Target)
+    * Product family: zynquplus
+    * Target device:  xck26-sfvc784-2LV-c
+    
+
+* Performance & Resource Estimates: 
++-------------------------------------+------+---------------+----------+---------+------+----------+---------+---------+------+------+---------+------------+-----------+-----+
+|               Modules               | Issue|               | Iteration|         | Trip |          |      Latency      |      |      |         |            |           |     |
+|               & Loops               | Type | Violation Type|  Latency | Interval| Count| Pipelined| (cycles)|   (ns)  | Slack| BRAM |   DSP   |     FF     |    LUT    | URAM|
++-------------------------------------+------+---------------+----------+---------+------+----------+---------+---------+------+------+---------+------------+-----------+-----+
+|+ conv2d                             |     -|              -|         -|       67|     -|        no|       66|  330.000|  0.65|     -|  9 (~0%)|  1726 (~0%)|  1248 (1%)|    -|
+| + conv2d_Pipeline_READ_INPUT        |     -|              -|         -|        -|     -|       yes|       27|  135.000|  1.59|     -|        -|   430 (~0%)|  156 (~0%)|    -|
+|  o READ_INPUT                       |     -|              -|         2|        1|    25|       yes|       25|  125.000|  3.65|     -|        -|           -|          -|    -|
+| + conv2d_Pipeline_READ_WEIGHTS      |     -|              -|         -|        -|     -|       yes|       11|   55.000|  1.61|     -|        -|   167 (~0%)|  152 (~0%)|    -|
+|  o READ_WEIGHTS                     |     -|              -|         2|        1|     9|       yes|        9|   45.000|  3.65|     -|        -|           -|          -|    -|
+| + conv2d_Pipeline_CONV_OR_CONV_OC2  |     -|              -|         -|        -|     -|       yes|       21|  105.000|  0.65|     -|  9 (~0%)|  1044 (~0%)|  633 (~0%)|    -|
+|  o CONV_OR_CONV_OC2                 |     -|              -|        12|        1|     9|       yes|       19|   95.000|  3.65|     -|        -|           -|          -|    -|
+| + conv2d_Pipeline_WRITE_OUTPUT      |     -|              -|         -|        -|     -|       yes|       11|   55.000|  1.61|     -|        -|    36 (~0%)|  200 (~0%)|    -|
+|  o WRITE_OUTPUT                     |     -|              -|         2|        1|     9|       yes|        9|   45.000|  3.65|     -|        -|           -|          -|    -|
++-------------------------------------+------+---------------+----------+---------+------+----------+---------+---------+------+------+---------+------------+-----------+-----+
+    Name Prefix: '+' for module, 'o' for loop, '*' for dataflow
+
+
+================================================================
+== HW Interfaces
+================================================================
+* AXIS
++---------------+-----------+---------------+-------+-------+-------+--------+-------+--------+
+| Interface     | Direction | Register Mode | TDATA | TKEEP | TLAST | TREADY | TSTRB | TVALID |
++---------------+-----------+---------------+-------+-------+-------+--------+-------+--------+
+| in_stream     | in        | both          | 16    | 2     | 1     | 1      | 2     | 1      |
+| out_stream    | out       | both          | 16    | 2     | 1     | 1      | 2     | 1      |
+| weight_stream | in        | both          | 16    | 2     | 1     | 1      | 2     | 1      |
++---------------+-----------+---------------+-------+-------+-------+--------+-------+--------+
+
+* Other Ports
++------+---------+-----------+----------+
+| Port | Mode    | Direction | Bitwidth |
++------+---------+-----------+----------+
+| bias | ap_none | in        | 16       |
++------+---------+-----------+----------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------------------------------+
+| Interface | Type       | Ports                             |
++-----------+------------+-----------------------------------+
+| ap_clk    | clock      | ap_clk                            |
+| ap_rst_n  | reset      | ap_rst_n                          |
+| ap_ctrl   | ap_ctrl_hs | ap_done ap_idle ap_ready ap_start |
++-----------+------------+-----------------------------------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++---------------+-----------+------------------------------------------------------------------------------+
+| Argument      | Direction | Datatype                                                                     |
++---------------+-----------+------------------------------------------------------------------------------+
+| in_stream     | in        | stream<hls::axis<ap_uint<16>, 0UL, 0UL, 0UL, (unsigned char)'8', false>, 0>& |
+| weight_stream | in        | stream<hls::axis<ap_uint<16>, 0UL, 0UL, 0UL, (unsigned char)'8', false>, 0>& |
+| bias          | in        | ap_fixed<16, 8, (ap_q_mode)5, (ap_o_mode)3, 0>                               |
+| out_stream    | out       | stream<hls::axis<ap_uint<16>, 0UL, 0UL, 0UL, (unsigned char)'8', false>, 0>& |
++---------------+-----------+------------------------------------------------------------------------------+
+
+* SW-to-HW Mapping
++---------------+---------------+-----------+
+| Argument      | HW Interface  | HW Type   |
++---------------+---------------+-----------+
+| in_stream     | in_stream     | interface |
+| weight_stream | weight_stream | interface |
+| bias          | bias          | port      |
+| out_stream    | out_stream    | interface |
++---------------+---------------+-----------+
+
+
+================================================================
+== Bind Op Report
+================================================================
++--------------------------------------+-----+--------+--------------+-----------+------------------------+---------+
+| Name                                 | DSP | Pragma | Variable     | Op        | Impl                   | Latency |
++--------------------------------------+-----+--------+--------------+-----------+------------------------+---------+
+| + conv2d                             | 9   |        |              |           |                        |         |
+|  + conv2d_Pipeline_READ_INPUT        | 0   |        |              |           |                        |         |
+|    icmp_ln57_fu_449_p2               |     |        | icmp_ln57    | seteq     | auto                   | 0       |
+|    i_fu_455_p2                       |     |        | i            | add       | fabric                 | 0       |
+|    add_ln66_fu_464_p2                |     |        | add_ln66     | add       | fabric                 | 0       |
+|    add_ln47_fu_497_p2                |     |        | add_ln47     | add       | fabric                 | 0       |
+|    icmp_ln47_fu_503_p2               |     |        | icmp_ln47    | seteq     | auto                   | 0       |
+|    select_ln47_fu_509_p3             |     |        | select_ln47  | select    | auto_sel               | 0       |
+|  + conv2d_Pipeline_READ_WEIGHTS      | 0   |        |              |           |                        |         |
+|    icmp_ln73_fu_233_p2               |     |        | icmp_ln73    | seteq     | auto                   | 0       |
+|    i_fu_239_p2                       |     |        | i            | add       | fabric                 | 0       |
+|    add_ln81_fu_248_p2                |     |        | add_ln81     | add       | fabric                 | 0       |
+|    add_ln73_1_fu_277_p2              |     |        | add_ln73_1   | add       | fabric                 | 0       |
+|    icmp_ln73_1_fu_283_p2             |     |        | icmp_ln73_1  | seteq     | auto                   | 0       |
+|    select_ln73_fu_289_p3             |     |        | select_ln73  | select    | auto_sel               | 0       |
+|  + conv2d_Pipeline_CONV_OR_CONV_OC2  | 9   |        |              |           |                        |         |
+|    icmp_ln89_fu_522_p2               |     |        | icmp_ln89    | seteq     | auto                   | 0       |
+|    add_ln89_fu_528_p2                |     |        | add_ln89     | add       | fabric                 | 0       |
+|    icmp_ln90_fu_540_p2               |     |        | icmp_ln90    | seteq     | auto                   | 0       |
+|    select_ln49_fu_546_p3             |     |        | select_ln49  | select    | auto_sel               | 0       |
+|    add_ln96_fu_555_p2                |     |        | add_ln96     | add       | fabric                 | 0       |
+|    select_ln89_fu_561_p3             |     |        | select_ln89  | select    | auto_sel               | 0       |
+|    sparsemux_7_2_16_1_1_U43          |     |        | tmp_5        | sparsemux | onehotencoding_realdef | 0       |
+|    sparsemux_7_2_16_1_1_U44          |     |        | tmp_6        | sparsemux | onehotencoding_realdef | 0       |
+|    sparsemux_7_2_16_1_1_U45          |     |        | tmp_7        | sparsemux | onehotencoding_realdef | 0       |
+|    sparsemux_7_2_16_1_1_U46          |     |        | tmp_8        | sparsemux | onehotencoding_realdef | 0       |
+|    mac_muladd_16s_16s_24s_24_4_1_U67 | 1   |        | mul_ln96     | mul       | dsp_slice              | 3       |
+|    mac_muladd_16s_16s_24s_24_4_1_U67 | 1   |        | add_ln96_1   | add       | dsp_slice              | 3       |
+|    add_ln96_2_fu_653_p2              |     |        | add_ln96_2   | add       | fabric                 | 0       |
+|    sparsemux_7_2_16_1_1_U51          |     |        | tmp_9        | sparsemux | onehotencoding_realdef | 0       |
+|    sparsemux_7_2_16_1_1_U52          |     |        | tmp_s        | sparsemux | onehotencoding_realdef | 0       |
+|    sparsemux_7_2_16_1_1_U53          |     |        | tmp_4        | sparsemux | onehotencoding_realdef | 0       |
+|    sparsemux_7_2_16_1_1_U54          |     |        | tmp_1        | sparsemux | onehotencoding_realdef | 0       |
+|    mac_muladd_16s_16s_24s_24_4_1_U68 | 1   |        | mul_ln96_1   | mul       | dsp_slice              | 3       |
+|    mac_muladd_16s_16s_24s_24_4_1_U68 | 1   |        | add_ln96_3   | add       | dsp_slice              | 3       |
+|    sparsemux_7_2_16_1_1_U59          |     |        | tmp_3        | sparsemux | onehotencoding_realdef | 0       |
+|    sparsemux_7_2_16_1_1_U60          |     |        | tmp_10       | sparsemux | onehotencoding_realdef | 0       |
+|    sparsemux_7_2_16_1_1_U61          |     |        | tmp_11       | sparsemux | onehotencoding_realdef | 0       |
+|    sparsemux_7_2_16_1_1_U62          |     |        | tmp_12       | sparsemux | onehotencoding_realdef | 0       |
+|    mac_muladd_16s_16s_24s_24_4_1_U69 | 1   |        | mul_ln96_2   | mul       | dsp_slice              | 3       |
+|    mac_muladd_16s_16s_24s_24_4_1_U69 | 1   |        | add_ln96_4   | add       | dsp_slice              | 3       |
+|    sparsemux_7_2_16_1_1_U47          |     |        | tmp_14       | sparsemux | onehotencoding_realdef | 0       |
+|    sparsemux_7_2_16_1_1_U48          |     |        | tmp_15       | sparsemux | onehotencoding_realdef | 0       |
+|    mac_muladd_16s_16s_24s_24_4_1_U70 | 1   |        | mul_ln96_3   | mul       | dsp_slice              | 3       |
+|    mac_muladd_16s_16s_24s_24_4_1_U70 | 1   |        | add_ln96_5   | add       | dsp_slice              | 3       |
+|    sparsemux_7_2_16_1_1_U55          |     |        | tmp_17       | sparsemux | onehotencoding_realdef | 0       |
+|    sparsemux_7_2_16_1_1_U56          |     |        | tmp_18       | sparsemux | onehotencoding_realdef | 0       |
+|    mac_muladd_16s_16s_24s_24_4_1_U71 | 1   |        | mul_ln96_4   | mul       | dsp_slice              | 3       |
+|    mac_muladd_16s_16s_24s_24_4_1_U71 | 1   |        | add_ln96_6   | add       | dsp_slice              | 3       |
+|    sparsemux_7_2_16_1_1_U63          |     |        | tmp_19       | sparsemux | onehotencoding_realdef | 0       |
+|    sparsemux_7_2_16_1_1_U64          |     |        | tmp_20       | sparsemux | onehotencoding_realdef | 0       |
+|    mac_muladd_16s_16s_24s_24_4_1_U72 | 1   |        | mul_ln96_5   | mul       | dsp_slice              | 3       |
+|    mac_muladd_16s_16s_24s_24_4_1_U72 | 1   |        | add_ln96_7   | add       | dsp_slice              | 3       |
+|    sparsemux_7_2_16_1_1_U49          |     |        | tmp_21       | sparsemux | onehotencoding_realdef | 0       |
+|    sparsemux_7_2_16_1_1_U50          |     |        | tmp_22       | sparsemux | onehotencoding_realdef | 0       |
+|    mac_muladd_16s_16s_24s_24_4_1_U73 | 1   |        | mul_ln96_6   | mul       | dsp_slice              | 3       |
+|    mac_muladd_16s_16s_24s_24_4_1_U73 | 1   |        | add_ln96_8   | add       | dsp_slice              | 3       |
+|    sparsemux_7_2_16_1_1_U57          |     |        | tmp_23       | sparsemux | onehotencoding_realdef | 0       |
+|    sparsemux_7_2_16_1_1_U58          |     |        | tmp_24       | sparsemux | onehotencoding_realdef | 0       |
+|    mac_muladd_16s_16s_24s_24_4_1_U74 | 1   |        | mul_ln96_7   | mul       | dsp_slice              | 3       |
+|    mac_muladd_16s_16s_24s_24_4_1_U74 | 1   |        | add_ln96_9   | add       | dsp_slice              | 3       |
+|    sparsemux_7_2_16_1_1_U65          |     |        | tmp_25       | sparsemux | onehotencoding_realdef | 0       |
+|    sparsemux_7_2_16_1_1_U66          |     |        | tmp_26       | sparsemux | onehotencoding_realdef | 0       |
+|    mac_muladd_16s_16s_24s_24_4_1_U75 | 1   |        | mul_ln96_8   | mul       | dsp_slice              | 3       |
+|    mac_muladd_16s_16s_24s_24_4_1_U75 | 1   |        | add_ln96_10  | add       | dsp_slice              | 3       |
+|  + conv2d_Pipeline_WRITE_OUTPUT      | 0   |        |              |           |                        |         |
+|    icmp_ln109_fu_194_p2              |     |        | icmp_ln109   | seteq     | auto                   | 0       |
+|    i_fu_200_p2                       |     |        | i            | add       | fabric                 | 0       |
+|    add_ln110_fu_212_p2               |     |        | add_ln110    | add       | fabric                 | 0       |
+|    icmp_ln110_fu_218_p2              |     |        | icmp_ln110   | seteq     | auto                   | 0       |
+|    select_ln110_fu_224_p3            |     |        | select_ln110 | select    | auto_sel               | 0       |
+|    add_ln113_fu_232_p2               |     |        | add_ln113    | add       | fabric                 | 0       |
+|    sparsemux_7_2_16_1_1_U122         |     |        | tmp          | sparsemux | onehotencoding_realdef | 0       |
+|    sparsemux_7_2_16_1_1_U123         |     |        | tmp_1        | sparsemux | onehotencoding_realdef | 0       |
+|    sparsemux_7_2_16_1_1_U124         |     |        | tmp_2        | sparsemux | onehotencoding_realdef | 0       |
+|    sparsemux_7_2_16_1_1_U125         |     |        | p_0          | sparsemux | onehotencoding_realdef | 0       |
+|    icmp_ln118_fu_332_p2              |     |        | icmp_ln118   | seteq     | auto                   | 0       |
++--------------------------------------+-----+--------+--------------+-----------+------------------------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
+  No bind storage info in design
+
+================================================================
+== Pragma Report
+================================================================
+* Ignored Pragmas
++-----------+-----------------------------+---------------------------------------+-----------------------------+
+| Type      | Options                     | Location                              | Messages                    |
++-----------+-----------------------------+---------------------------------------+-----------------------------+
+| INTERFACE | ap_ctrl_none bundle=control | in conv2d (../../files/conv2d.cpp:42) | missing argument for 'port' |
++-----------+-----------------------------+---------------------------------------+-----------------------------+
+
+* Inferred Pragmas
++--------------+---------+---------------------------------------------------------------------------------------------------------------+------------------------------------+
+| Type         | Options | Location                                                                                                      | Inferred From                      |
++--------------+---------+---------------------------------------------------------------------------------------------------------------+------------------------------------+
+| LOOP_FLATTEN |         | loop CONV_OR (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:89:18) in conv2d (../../files/conv2d.cpp:89) | pipeline ../../files/conv2d.cpp:91 |
++--------------+---------+---------------------------------------------------------------------------------------------------------------+------------------------------------+
+
+* Valid Pragma Syntax
++-----------------+----------------------------------+----------------------------------------+
+| Type            | Options                          | Location                               |
++-----------------+----------------------------------+----------------------------------------+
+| INTERFACE       | axis port=in_stream register     | in conv2d (../../files/conv2d.cpp:38)  |
+| INTERFACE       | axis port=weight_stream register | in conv2d (../../files/conv2d.cpp:39)  |
+| INTERFACE       | axis port=out_stream register    | in conv2d (../../files/conv2d.cpp:40)  |
+| INTERFACE       | ap_none port=bias                | in conv2d (../../files/conv2d.cpp:41)  |
+| ARRAY_PARTITION | variable=input complete dim=0    | in conv2d (../../files/conv2d.cpp:51)  |
+| ARRAY_PARTITION | variable=weights complete dim=0  | in conv2d (../../files/conv2d.cpp:52)  |
+| ARRAY_PARTITION | variable=output complete dim=0   | in conv2d (../../files/conv2d.cpp:53)  |
+| PIPELINE        | ii=1                             | in conv2d (../../files/conv2d.cpp:58)  |
+| PIPELINE        | ii=1                             | in conv2d (../../files/conv2d.cpp:74)  |
+| PIPELINE        | ii=1                             | in conv2d (../../files/conv2d.cpp:91)  |
+| PIPELINE        | ii=1                             | in conv2d (../../files/conv2d.cpp:110) |
++-----------------+----------------------------------+----------------------------------------+
+
+

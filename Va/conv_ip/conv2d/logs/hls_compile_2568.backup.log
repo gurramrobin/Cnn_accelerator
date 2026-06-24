@@ -1,0 +1,198 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/conv_ip/conv2d 
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/conv_ip/conv2d/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/conv_ip/conv2d'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp' from hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.h' from hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d_tb.cpp' from hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=conv2d' from hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xck26-sfvc784-2LV-c' from hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xck26-sfvc784-2LV-c'
+INFO: [HLS 200-1465] Applying config ini 'clock=5ns' from hls_config.cfg(11)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 5ns.
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/conv_ip/conv2d/vitis-comp.json
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2 seconds. CPU system time: 2 seconds. Elapsed time: 5.227 seconds; current allocated memory: 534.812 MB.
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+INFO: [HLS 200-10] Analyzing design file 'C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 5.131 seconds; current allocated memory: 537.398 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 469 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/conv_ip/conv2d/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 392 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/conv_ip/conv2d/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 143 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/conv_ip/conv2d/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 137 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/conv_ip/conv2d/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 137 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/conv_ip/conv2d/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 656 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/conv_ip/conv2d/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 290 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/conv_ip/conv2d/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 290 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/conv_ip/conv2d/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 290 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/conv_ip/conv2d/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 290 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/conv_ip/conv2d/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 204 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/conv_ip/conv2d/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 204 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/conv_ip/conv2d/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 204 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/conv_ip/conv2d/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 204 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/conv_ip/conv2d/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 290 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/conv_ip/conv2d/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 298 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/conv_ip/conv2d/hls/syn/report/csynth_design_size.rpt:2)
+WARNING: [HLS 214-275] In loop 'IC_LOOP (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:93:26)', partially UNROLL (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:94:1) is converted into complete unroll due to PIPELINE pragma above (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:89:1) as a pipelined region cannot contain loops that are not fully unrolled (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:93:26)
+WARNING: [HLS 214-275] In loop 'KC_LOOP (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:98:34)', partially UNROLL (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:99:1) is converted into complete unroll due to PIPELINE pragma above (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:89:1) as a pipelined region cannot contain loops that are not fully unrolled (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:98:34)
+INFO: [HLS 214-291] Loop 'IC_LOOP' is marked as complete unroll implied by the pipeline pragma (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:93:26)
+INFO: [HLS 214-291] Loop 'KR_LOOP' is marked as complete unroll implied by the pipeline pragma (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:96:30)
+INFO: [HLS 214-291] Loop 'KC_LOOP' is marked as complete unroll implied by the pipeline pragma (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:98:34)
+INFO: [HLS 214-186] Unrolling loop 'IC_LOOP' (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:93:26) in function 'conv2d' completely with a factor of 1 (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-186] Unrolling loop 'KR_LOOP' (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:96:30) in function 'conv2d' completely with a factor of 3 (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-186] Unrolling loop 'KC_LOOP' (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:98:34) in function 'conv2d' completely with a factor of 3 (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-248] Applying array_partition to 'input': Complete partitioning on dimension 1. Complete partitioning on dimension 2. Complete partitioning on dimension 3. (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-248] Applying array_partition to 'weights': Complete partitioning on dimension 1. Complete partitioning on dimension 2. Complete partitioning on dimension 3. Complete partitioning on dimension 4. (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-248] Applying array_partition to 'output': Complete partitioning on dimension 1. Complete partitioning on dimension 2. Complete partitioning on dimension 3. (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+WARNING: [HLS 214-322] Unsuported scalar variable on pragma 'ap_memory Interface', ignore it. (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:72:1)
+WARNING: [HLS 214-322] Unsuported scalar variable on pragma 'ap_memory Interface', ignore it. (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:73:1)
+WARNING: [HLS 214-322] Unsuported scalar variable on pragma 'ap_memory Interface', ignore it. (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:75:1)
+INFO: [HLS 214-241] Aggregating scalar variable 'output_2_2' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'output_2_1' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'output_2_0' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'output_1_2' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'output_1_1' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'output_1_0' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'output_0_2' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'output_0_1' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'output_0_0' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'weights_2_2' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'weights_2_1' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'weights_2_0' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'weights_1_2' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'weights_1_1' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'weights_1_0' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'weights_0_2' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'weights_0_1' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'weights_0_0' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'input_4_4' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'input_4_3' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'input_4_2' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'input_4_1' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'input_4_0' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'input_3_4' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'input_3_3' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'input_3_2' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'input_3_1' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'input_3_0' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'input_2_4' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'input_2_3' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'input_2_2' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'input_2_1' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'input_2_0' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'input_1_4' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'input_1_3' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'input_1_2' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'input_1_1' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'input_1_0' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'input_0_4' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'input_0_3' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'input_0_2' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'input_0_1' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'input_0_0' with compact=bit mode in 16-bits (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:51:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 11.775 seconds; current allocated memory: 539.988 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.002 seconds; current allocated memory: 539.988 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.077 seconds; current allocated memory: 545.027 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.032 seconds; current allocated memory: 546.785 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.092 seconds; current allocated memory: 568.195 MB.
+INFO: [HLS 200-2061] Successfully converted nested loops 'OR_LOOP'(C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:81:18) and 'OC_COL_LOOP'(C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:83:26) in function 'conv2d' into perfectly nested loops.
+INFO: [XFORM 203-541] Flattening a loop nest 'OR_LOOP' (C:/Users/LAB2_PC10/Desktop/CHINNA/files/conv2d.cpp:81:18) in function 'conv2d'.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.1 seconds; current allocated memory: 568.199 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'conv2d' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'conv2d' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln101_10) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln101_9) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln101_8) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln101_7) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln101_6) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln101_5) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln101_4) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln101_3) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln101_1) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining loop 'OR_LOOP_OC_COL_LOOP'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 12, loop 'OR_LOOP_OC_COL_LOOP'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.213 seconds; current allocated memory: 568.199 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.056 seconds; current allocated memory: 569.809 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'conv2d' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/input_0_0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/input_0_1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/input_0_2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/input_0_3' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/input_0_4' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/input_1_0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/input_1_1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/input_1_2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/input_1_3' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/input_1_4' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/input_2_0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/input_2_1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/input_2_2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/input_2_3' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/input_2_4' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/input_3_0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/input_3_1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/input_3_2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/input_3_3' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/input_3_4' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/input_4_0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/input_4_1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/input_4_2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/input_4_3' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/input_4_4' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/weights_0_0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/weights_0_1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/weights_0_2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/weights_1_0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/weights_1_1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/weights_1_2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/weights_2_0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/weights_2_1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/weights_2_2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/bias' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/output_0_0' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/output_0_1' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/output_0_2' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/output_1_0' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/output_1_1' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/output_1_2' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/output_2_0' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/output_2_1' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv2d/output_2_2' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'conv2d' to 'ap_ctrl_hs'.
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'conv2d' pipeline 'OR_LOOP_OC_COL_LOOP' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_16s_16s_24s_24_4_1': 9 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_16_1_1': 24 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'conv2d'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.518 seconds; current allocated memory: 573.559 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.359 seconds; current allocated memory: 580.461 MB.
+INFO: [HLS 200-2225] Wrote inferred directives to file C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/conv_ip/conv2d/hls/syn/inferred_directives.ini
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 0.733 seconds; current allocated memory: 583.820 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for conv2d.
+INFO: [VLOG 209-307] Generating Verilog RTL for conv2d.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 407.17 MHz
+INFO: [HLS 200-112] Total CPU user time: 4 seconds. Total CPU system time: 3 seconds. Total elapsed time: 25.335 seconds; peak allocated memory: 583.898 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 0m 29s

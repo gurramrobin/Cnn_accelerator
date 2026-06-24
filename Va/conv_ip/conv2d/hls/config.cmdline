@@ -1,0 +1,3 @@
+relativeroot=C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/conv_ip
+original_argv=--mode hls --package --config C:\Users\LAB2_PC10\Desktop\CHINNA\HLS_workspace\conv_ip\hls_config.cfg --work_dir conv2d 
+

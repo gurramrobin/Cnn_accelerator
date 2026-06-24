@@ -1,0 +1,1655 @@
+[
+  {
+    "uri": "file:///warnings_without_file",
+    "owner": "conv_ip::co-simulation",
+    "data": [
+      {
+        "message": "WARNING: [XSIM 43-4099] \"/proj/primebuilds/9999.0_PRIME_0428_0031/installs/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv\" Line 4356. Module uvm_pkg doesn't have a timescale but at least one module in design has a timescale.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::co-simulation"
+      }
+    ]
+  },
+  {
+    "uri": "file:///warnings_without_file",
+    "owner": "conv_ip::synthesis",
+    "data": [
+      {
+        "message": "WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::synthesis"
+      }
+    ]
+  },
+  {
+    "uri": "file:///warnings_without_file",
+    "owner": "conv_ip::implementation",
+    "data": [
+      {
+        "message": "WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. ",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Netlist 29-43] Netlist 'bd_0_wrapper' is not ideal for floorplanning, since the cellview 'bd_0_hls_inst_0_conv2d' defined in file 'bd_0_hls_inst_0.edf' contains large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Timing 38-242] The property HD.CLK_SRC of clock port \"ap_clk\" is not set. In out-of-context mode, this prevents timing estimation for clock delay/skew",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Common 17-210] 'write_hwdef' is deprecated.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [DRC 23-814] Not all possible (connectivity based) DRCs may have been run because this design is seen as Out of Context.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-197] Clock port \"ap_clk\" does not have an associated HD.CLK_SRC. Without this constraint, timing analysis may not be accurate and upstream checks cannot be done to ensure correct clock placement.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_2_1[14]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_2_1[14]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_2_2[14]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_2_2[14]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_2_3[14]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_2_3[14]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_2_4[14]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_2_4[14]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_4_2[14]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_4_2[14]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_4_3[14]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_4_3[14]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_4_4[14]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_4_4[14]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_1_2[11]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_1_2[11]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_1_3[11]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_1_3[11]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_1_4[11]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_1_4[11]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_2_1[11]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_2_1[11]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_2_2[11]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_2_2[11]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_2_3[11]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_2_3[11]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_2_4[11]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_2_4[11]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_2_4[12]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_2_4[12]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_0_2[14]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_0_2[14]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_0_3[14]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_0_3[14]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_0_4[14]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_0_4[14]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_1_1[14]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_1_1[14]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_1_2[14]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_1_2[14]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_1_3[14]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_1_3[14]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_1_4[14]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_1_4[14]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_0_2[11]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_0_2[11]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_0_3[11]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_0_3[11]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_0_4[11]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_0_4[11]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_4_4[11]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_4_4[11]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_0_1[11]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_0_1[11]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_1_1[11]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_1_1[11]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_1_4[12]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_1_4[12]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_3_4[12]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_3_4[12]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_4_1[11]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_4_1[11]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_4_2[11]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_4_2[11]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_4_3[11]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_4_3[11]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_0_4[12]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_0_4[12]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_2_1[12]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_2_1[12]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_2_2[12]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_2_2[12]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_2_3[12]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_2_3[12]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_3_1[14]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_3_1[14]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_3_2[14]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_3_2[14]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_3_3[14]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_3_3[14]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_0_1[14]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_0_1[14]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_3_4[14]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_3_4[14]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_4_1[14]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_4_1[14]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_0_1[12]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_0_1[12]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_0_2[12]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_0_2[12]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_0_3[12]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_0_3[12]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_1_1[12]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_1_1[12]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_1_2[12]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_1_2[12]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_1_3[12]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_1_3[12]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_4_1[12]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_4_1[12]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_4_2[12]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_4_2[12]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_4_3[12]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_4_3[12]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_4_4[12]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_4_4[12]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_3_1[12]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_3_1[12]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_3_2[12]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_3_2[12]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_3_3[12]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_3_3[12]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"weights_1_1[10]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"weights_1_1[10]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"weights_1_1[4]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"weights_1_1[4]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"weights_1_1[7]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"weights_1_1[7]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_0_2[8]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_0_2[8]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_0_3[8]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_0_3[8]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_0_4[8]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_0_4[8]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_1_1[8]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_1_1[8]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_1_2[8]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_1_2[8]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_1_3[8]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_1_3[8]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_1_4[8]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_1_4[8]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_2_1[8]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_2_1[8]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_2_2[8]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_2_2[8]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_2_3[8]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_2_3[8]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_2_4[8]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_2_4[8]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_3_1[11]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_3_1[11]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_3_2[11]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_3_2[11]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_3_3[11]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_3_3[11]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_3_4[11]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_3_4[11]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"weights_0_2[12]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"weights_0_2[12]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"weights_0_2[13]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"weights_0_2[13]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"weights_0_2[14]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"weights_0_2[14]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"weights_0_2[15]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"weights_0_2[15]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_3_1[13]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_3_1[13]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_3_2[13]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_3_2[13]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_3_3[13]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_3_3[13]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_3_4[13]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_3_4[13]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"weights_1_1[13]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"weights_1_1[13]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"weights_1_1[11]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"weights_1_1[11]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"weights_1_1[12]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"weights_1_1[12]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"weights_1_1[14]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"weights_1_1[14]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"weights_1_1[15]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"weights_1_1[15]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_1_1[9]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_1_1[9]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_1_2[9]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_1_2[9]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_1_3[9]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_1_3[9]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_1_4[9]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_1_4[9]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_3_1[8]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_3_1[8]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_3_2[8]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_3_2[8]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_3_3[8]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_3_3[8]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_3_4[8]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_3_4[8]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_0_1[8]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_0_1[8]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_4_1[8]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_4_1[8]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_4_2[8]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_4_2[8]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"input_4_3[8]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"input_4_3[8]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      },
+      {
+        "message": "WARNING: [Route 35-198] Port \"weights_0_2[10]\" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal \"weights_0_2[10]\". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 2,
+        "source": "conv_ip::implementation"
+      }
+    ]
+  }
+]

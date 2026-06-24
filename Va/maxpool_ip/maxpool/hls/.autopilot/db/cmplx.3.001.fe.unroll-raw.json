@@ -1,0 +1,20 @@
+{
+  "0": {
+    "basicblocks": 26,
+    "calls": "",
+    "control_depth": 3,
+    "def_use_depth": 7,
+    "file": "maxpool.cpp",
+    "fileloc": 16,
+    "instructions": 207,
+    "loads": {
+      "L": 11
+    },
+    "memory_accesses": 24,
+    "name": "maxpool",
+    "stores": {
+      "L": 9
+    },
+    "total_instructions": 215
+  }
+}

@@ -1,0 +1,16 @@
+==============================
+Conv2D Testbench (AXI-Stream)
+==============================
+  output[0][0][0] =    42.5  expected=42.5  PASS
+  output[0][0][1] =    48.5  expected=48.5  PASS
+  output[0][0][2] =    54.5  expected=54.5  PASS
+  output[0][1][0] =    72.5  expected=72.5  PASS
+  output[0][1][1] =    78.5  expected=78.5  PASS
+  output[0][1][2] =    84.5  expected=84.5  PASS
+  output[0][2][0] =   102.5  expected=102.5  PASS
+  output[0][2][1] =   108.5  expected=108.5  PASS
+  output[0][2][2] =   114.5  expected=114.5  PASS
+==============================
+PASS: 9  FAIL: 0
+RESULT: ALL TESTS PASSED
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 25

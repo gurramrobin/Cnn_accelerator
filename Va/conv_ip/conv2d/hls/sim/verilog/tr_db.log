@@ -1,0 +1,5 @@
+  CREATE_STREAM @0 {NAME:conv2d_subsys_test_sequence_lib T:Transactions SCOPE:uvm_test_top.top_env.conv2d_virtual_sqr STREAM:1505}
+  CREATE_STREAM @113000 {NAME:conv2d_subsys_test_sequence_lib T:Transactions SCOPE:uvm_test_top.top_env.env_master_svr_bias.m_agt.sqr STREAM:1605}
+  CREATE_STREAM @113000 {NAME:conv2d_subsys_test_sequence_lib T:Transactions SCOPE:uvm_test_top.top_env.env_master_svr_in_stream.m_agt.sqr STREAM:1615}
+  CREATE_STREAM @113000 {NAME:conv2d_subsys_test_sequence_lib T:Transactions SCOPE:uvm_test_top.top_env.env_master_svr_weight_stream.m_agt.sqr STREAM:1625}
+  CREATE_STREAM @113000 {NAME:conv2d_subsys_test_sequence_lib T:Transactions SCOPE:uvm_test_top.top_env.env_slave_svr_out_stream.s_agt.sqr STREAM:1635}

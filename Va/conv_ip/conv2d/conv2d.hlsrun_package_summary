@@ -1,0 +1,157 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\LAB2_PC10\\Desktop\\CHINNA\\HLS_workspace\\conv_ip\\conv2d\\conv2d.hlsrun_package_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "06/11/26 15:53:09",
+ "timestampMillis": "1781173389172",
+ "buildStep": {
+  "cmdId": "01c09968-ea20-4762-9722-123c8b72c887",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\LAB2_PC10\\Desktop\\CHINNA\\HLS_workspace\\conv_ip\\conv2d\\logs\\conv2d.steps.log",
+  "commandLine": "C:/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --package --config C:\\Users\\LAB2_PC10\\Desktop\\CHINNA\\HLS_workspace\\conv_ip\\hls_config.cfg --work_dir conv2d ",
+  "args": [
+   "--mode",
+   "hls",
+   "--package",
+   "--config",
+   "C:\\Users\\LAB2_PC10\\Desktop\\CHINNA\\HLS_workspace\\conv_ip\\hls_config.cfg",
+   "--work_dir",
+   "conv2d"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\LAB2_PC10\\Desktop\\CHINNA\\HLS_workspace\\conv_ip"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/11/26 15:53:09",
+ "timestampMillis": "1781173389173",
+ "status": {
+  "cmdId": "01c09968-ea20-4762-9722-123c8b72c887",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "06/11/26 15:53:13",
+ "timestampMillis": "1781173393958",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IP",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "conv2d",
+     "file": "C:/Users\\LAB2_PC10\\Desktop\\CHINNA\\HLS_workspace\\conv_ip\\conv2d\\conv2d.zip",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\LAB2_PC10\\Desktop\\CHINNA\\files\\conv2d.cpp",
+     "C:/Users\\LAB2_PC10\\Desktop\\CHINNA\\files\\conv2d.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "06/11/26 15:53:13",
+ "timestampMillis": "1781173393959",
+ "buildStep": {
+  "cmdId": "0eaaf22f-a9cb-439f-b63e-3d37b52d5ee8",
+  "name": "",
+  "logFile": "C:/Users\\LAB2_PC10\\Desktop\\CHINNA\\HLS_workspace\\conv_ip\\conv2d\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\LAB2_PC10\\Desktop\\CHINNA\\HLS_workspace\\conv_ip"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/11/26 15:53:13",
+ "timestampMillis": "1781173393959",
+ "status": {
+  "cmdId": "0eaaf22f-a9cb-439f-b63e-3d37b52d5ee8",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/11/26 15:53:23",
+ "timestampMillis": "1781173403530",
+ "status": {
+  "cmdId": "0eaaf22f-a9cb-439f-b63e-3d37b52d5ee8",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/11/26 15:53:23",
+ "timestampMillis": "1781173403648",
+ "status": {
+  "cmdId": "01c09968-ea20-4762-9722-123c8b72c887",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/11/26 15:53:23",
+ "timestampMillis": "1781173403648",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/11/26 15:53:23",
+ "timestampMillis": "1781173403648",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

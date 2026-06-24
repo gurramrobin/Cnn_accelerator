@@ -1,0 +1,101 @@
+{
+    "0": {
+        "name": "conv2d",
+        "file": "conv2d.cpp",
+        "fileloc": "23",
+        "instructions": "114",
+        "total_instructions": "587",
+        "calls": "2 1 3 4",
+        "basicblocks": "1",
+        "memory_accesses": "0",
+        "control_depth": "0",
+        "def_use_depth": "2",
+        "loads": {
+            "L": "43"
+        }
+    },
+    "1": {
+        "name": "conv2d_Pipeline_READ_WEIGHTS",
+        "file": "C:\/Users\/LAB2_PC10\/Desktop\/CHINNA\/files\/conv2d.cpp",
+        "fileloc": "48",
+        "instructions": "80",
+        "total_instructions": "80",
+        "calls": "",
+        "basicblocks": "17",
+        "memory_accesses": "16",
+        "control_depth": "3",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "12"
+        },
+        "stores": {
+            "L": "15"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "2": {
+        "name": "conv2d_Pipeline_READ_INPUT",
+        "file": "C:\/Users\/LAB2_PC10\/Desktop\/CHINNA\/files\/conv2d.cpp",
+        "fileloc": "47",
+        "instructions": "162",
+        "total_instructions": "162",
+        "calls": "",
+        "basicblocks": "35",
+        "memory_accesses": "32",
+        "control_depth": "3",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "28"
+        },
+        "stores": {
+            "L": "31"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "3": {
+        "name": "conv2d_Pipeline_CONV_OR_CONV_OC2",
+        "file": "C:\/Users\/LAB2_PC10\/Desktop\/CHINNA\/files\/conv2d.cpp",
+        "fileloc": "49",
+        "instructions": "187",
+        "total_instructions": "187",
+        "calls": "",
+        "basicblocks": "17",
+        "memory_accesses": "15",
+        "control_depth": "3",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "12"
+        },
+        "stores": {
+            "L": "15"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "4": {
+        "name": "conv2d_Pipeline_WRITE_OUTPUT",
+        "file": "C:\/Users\/LAB2_PC10\/Desktop\/CHINNA\/files\/conv2d.cpp",
+        "fileloc": "109",
+        "instructions": "44",
+        "total_instructions": "44",
+        "calls": "",
+        "basicblocks": "4",
+        "memory_accesses": "7",
+        "control_depth": "1",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "6"
+        },
+        "loops": {
+            "L": "1"
+        }
+    }
+}

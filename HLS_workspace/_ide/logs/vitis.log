@@ -1,0 +1,198 @@
+10:12:24 INFO  : updated workspace path: C:\Users\LAB2_PC10\Desktop\CHINNA\HLS_workspace
+10:12:24 INFO  : Marking the target connection as default Local
+10:12:24 INFO  : Marking the target connection as default Linux Agent
+10:12:24 INFO  : Marking the target connection as default XRTServer
+10:12:24 INFO  : Marking the target connection as default LinuxEmulation
+10:12:24 INFO  : Marking the target connection as default QEMU
+10:12:24 INFO  : created .gitignore file for the project C:\Users\LAB2_PC10\Desktop\CHINNA\HLS_workspace
+10:12:25 INFO  : [INFO]: Initializing repositories
+10:12:25 INFO  : [INFO]: Successfully set the EmbeddedSW path, refer .repo.yaml for more details.
+10:12:25 INFO  : Successfully created repository data at C:\Users\LAB2_P~1\AppData\Local\Temp\rigel_lopper_LAB2_PC101877709381679224474
+10:12:25 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\LAB2_P~1\AppData\Local\Temp\rigel_lopper_LAB2_PC106433514459284351552 -r C:\Users\LAB2_P~1\AppData\Local\Temp\rigel_lopper_LAB2_PC101877709381679224474\.repo.yaml
+10:12:25 INFO  : Embedded Template List generated successfully
+10:12:25 INFO  : cmd.exe, /C, empyro.bat repo -st   C:\2025.2\Vitis\data\embeddedsw
+10:12:27 INFO  : [INFO]: Initializing repositories
+10:12:27 INFO  : [INFO]: Successfully set the EmbeddedSW path, refer .repo.yaml for more details.
+10:12:27 INFO  : Successfully created repository data at C:\Users\LAB2_PC10\Desktop\CHINNA\HLS_workspace/_ide\.wsdata
+10:12:27 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\LAB2_P~1\AppData\Local\Temp\rigel_lopper_LAB2_PC104454390064017650365 -r C:\Users\LAB2_PC10\Desktop\CHINNA\HLS_workspace\_ide\.wsdata\.repo.yaml
+10:12:27 INFO  : Embedded Template List generated successfully
+10:14:20 INFO  : created .gitignore file for the project C:\Users\LAB2_PC10\Desktop\CHINNA\HLS_workspace\conv_ip
+10:35:18 INFO  : created .gitignore file for the project C:\Users\LAB2_PC10\Desktop\CHINNA\HLS_workspace\relu_ip
+12:52:49 INFO  : connection terminated
+12:52:49 INFO  : connection terminated
+12:52:49 INFO  : scheduling shutdown timer for 2 seconds ...
+12:52:49 INFO  : scheduling shutdown timer for 2 seconds ...
+12:52:52 INFO  : Terminating Vitis C++ Server
+12:52:52 INFO  : Terminating Vitis C++ Server
+12:52:52 INFO  : Vitis C++ Server terminated
+12:54:21 INFO  : updated workspace path: C:\Users\LAB2_PC10\Desktop\CHINNA\HLS_workspace
+12:54:22 INFO  : created .gitignore file for the project C:\Users\LAB2_PC10\Desktop\CHINNA\HLS_workspace
+12:54:22 INFO  : [INFO]: Initializing repositories
+12:54:22 INFO  : [INFO]: Successfully set the EmbeddedSW path, refer .repo.yaml for more details.
+12:54:22 INFO  : Successfully created repository data at C:\Users\LAB2_P~1\AppData\Local\Temp\rigel_lopper_LAB2_PC1013832660344892445349
+12:54:22 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\LAB2_P~1\AppData\Local\Temp\rigel_lopper_LAB2_PC10643923464898989370 -r C:\Users\LAB2_P~1\AppData\Local\Temp\rigel_lopper_LAB2_PC1013832660344892445349\.repo.yaml
+12:54:23 INFO  : Embedded Template List generated successfully
+12:54:23 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\LAB2_P~1\AppData\Local\Temp\rigel_lopper_LAB2_PC106069183238063710250 -r C:\Users\LAB2_PC10\Desktop\CHINNA\HLS_workspace\_ide\.wsdata\.repo.yaml
+12:54:23 INFO  : Embedded Template List generated successfully
+12:56:24 INFO  : created .gitignore file for the project C:\Users\LAB2_PC10\Desktop\CHINNA\HLS_workspace\maxpool_ip
+14:24:40 INFO  : connection terminated
+14:24:40 INFO  : connection terminated
+14:24:40 INFO  : scheduling shutdown timer for 2 seconds ...
+14:24:43 INFO  : Terminating Vitis C++ Server
+14:24:44 INFO  : Vitis C++ Server terminated
+15:50:04 INFO  : updated workspace path: C:\Users\LAB2_PC10\Desktop\CHINNA\HLS_workspace
+15:50:04 INFO  : created .gitignore file for the project C:\Users\LAB2_PC10\Desktop\CHINNA\HLS_workspace
+15:50:05 INFO  : [INFO]: Initializing repositories
+15:50:05 INFO  : [INFO]: Successfully set the EmbeddedSW path, refer .repo.yaml for more details.
+15:50:05 INFO  : Successfully created repository data at C:\Users\LAB2_P~1\AppData\Local\Temp\rigel_lopper_LAB2_PC106121103093046514487
+15:50:05 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\LAB2_P~1\AppData\Local\Temp\rigel_lopper_LAB2_PC1015102782594381612556 -r C:\Users\LAB2_P~1\AppData\Local\Temp\rigel_lopper_LAB2_PC106121103093046514487\.repo.yaml
+15:50:06 INFO  : Embedded Template List generated successfully
+15:50:06 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\LAB2_P~1\AppData\Local\Temp\rigel_lopper_LAB2_PC109216589600763288222 -r C:\Users\LAB2_PC10\Desktop\CHINNA\HLS_workspace\_ide\.wsdata\.repo.yaml
+15:50:06 INFO  : Embedded Template List generated successfully
+17:14:51 INFO  : updated workspace path: C:\Users\LAB2_PC10\Desktop\CHINNA\HLS_workspace
+17:14:52 INFO  : created .gitignore file for the project C:\Users\LAB2_PC10\Desktop\CHINNA\HLS_workspace
+17:14:52 INFO  : [INFO]: Initializing repositories
+17:14:52 INFO  : [INFO]: Successfully set the EmbeddedSW path, refer .repo.yaml for more details.
+17:14:52 INFO  : Successfully created repository data at C:\Users\LAB2_P~1\AppData\Local\Temp\rigel_lopper_LAB2_PC1018421663547417291460
+17:14:52 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\LAB2_P~1\AppData\Local\Temp\rigel_lopper_LAB2_PC101572334141477680213 -r C:\Users\LAB2_P~1\AppData\Local\Temp\rigel_lopper_LAB2_PC1018421663547417291460\.repo.yaml
+17:14:53 INFO  : Embedded Template List generated successfully
+17:14:53 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\LAB2_P~1\AppData\Local\Temp\rigel_lopper_LAB2_PC1014582944977995163045 -r C:\Users\LAB2_PC10\Desktop\CHINNA\HLS_workspace\_ide\.wsdata\.repo.yaml
+17:14:53 INFO  : Embedded Template List generated successfully
+17:14:53 INFO  : cmd.exe, /C, empyro.bat repo -st  C:\2025.2\Vitis\data\embeddedsw
+17:14:54 INFO  : [INFO]: Initializing repositories
+17:14:54 INFO  : [INFO]: Successfully set the EmbeddedSW path, refer .repo.yaml for more details.
+17:14:54 INFO  : Successfully created repository data at C:\Users\LAB2_P~1\AppData\Local\Temp\rigel_lopper_LAB2_PC1011084726024094007527
+17:14:54 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\LAB2_P~1\AppData\Local\Temp\rigel_lopper_LAB2_PC103600640738821060515 -r C:\Users\LAB2_P~1\AppData\Local\Temp\rigel_lopper_LAB2_PC1011084726024094007527\.repo.yaml
+17:14:55 INFO  : Embedded Template List generated successfully
+17:35:41 INFO  : connection terminated
+17:35:41 INFO  : connection terminated
+17:35:41 INFO  : scheduling shutdown timer for 2 seconds ...
+17:35:41 INFO  : scheduling shutdown timer for 2 seconds ...
+17:35:45 INFO  : Terminating Vitis C++ Server
+17:35:45 INFO  : Terminating Vitis C++ Server
+17:35:45 INFO  : Vitis C++ Server terminated
+15:26:56 INFO  : updated workspace path: C:\CHINNA\HLS_workspace
+15:26:57 INFO  : created .gitignore file for the project C:\CHINNA\HLS_workspace
+15:26:57 INFO  : [INFO]: Initializing repositories
+15:26:57 INFO  : [INFO]: Successfully set the EmbeddedSW path, refer .repo.yaml for more details.
+15:26:57 INFO  : Successfully created repository data at C:\Users\CHINNA\AppData\Local\Temp\rigel_lopper_CHINNA4223522423151705846
+15:26:57 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\CHINNA\AppData\Local\Temp\rigel_lopper_CHINNA2894093997268616364 -r C:\Users\CHINNA\AppData\Local\Temp\rigel_lopper_CHINNA4223522423151705846\.repo.yaml
+15:26:58 INFO  : Embedded Template List generated successfully
+15:26:58 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\CHINNA\AppData\Local\Temp\rigel_lopper_CHINNA88510469576331985 -r C:\CHINNA\HLS_workspace\_ide\.wsdata\.repo.yaml
+15:26:58 INFO  : Embedded Template List generated successfully
+15:28:33 INFO  : Using sdt generation script from C:\2025.2\Vitis\vitis-server\scripts\platformutil.tcl
+15:28:33 INFO  : cmd.exe, /C, sdtgen.bat C:\2025.2\Vitis\vitis-server\scripts\platformutil.tcl C:\CHINNA\Vivado_workspace\cnn_accelerator\cnn_pipeline_accelerator.xsa C:\CHINNA\HLS_workspace\.rigel_lopper_temp_platform\cnn_pipeline_accelerator\hw\sdt
+15:28:48 INFO  : INFO: C:\CHINNA\HLS_workspace\.rigel_lopper_temp_platform\cnn_pipeline_accelerator\hw\sdt exists. Files will be overwritten
+15:28:48 INFO  : -xsa C:\CHINNA\Vivado_workspace\cnn_accelerator\cnn_pipeline_accelerator.xsa
+15:28:48 INFO  : -dir C:\CHINNA\HLS_workspace\.rigel_lopper_temp_platform\cnn_pipeline_accelerator\hw\sdt
+15:28:48 INFO  : -board_dts 
+15:28:48 INFO  : -include_dts 
+15:28:48 INFO  : -repo C:/2025.2/Vitis/data/system-device-tree-xlnx
+15:28:48 INFO  : -zocl disable
+15:28:48 INFO  : INFO: [Hsi 55-2053] elapsed time for repository (C:/2025.2/Vitis/data/embeddedsw) loading 3 seconds
+15:28:48 INFO  : hsi::open_hw_design: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 269.801 ; gain = 185.098
+15:28:48 INFO  : SDT generated successfully
+15:28:48 INFO  : Lopper command for cpu List generation: lopper.bat --enhanced --werror -f -O C:\CHINNA\HLS_workspace\.rigel_lopper -i lop-cpu-oslist.dts C:\CHINNA\HLS_workspace\.rigel_lopper_temp_platform\cnn_pipeline_accelerator\hw\sdt\system-top.dts
+15:28:48 INFO  : cmd.exe, /C, lopper.bat --enhanced --werror -f -O C:\CHINNA\HLS_workspace\.rigel_lopper -i lop-cpu-oslist.dts C:\CHINNA\HLS_workspace\.rigel_lopper_temp_platform\cnn_pipeline_accelerator\hw\sdt\system-top.dts
+15:28:51 INFO  : CPU List generated successfully
+15:29:10 INFO  : Platform kv260_platform creation started.
+15:29:10 INFO  : Lopper command for cpu List generation: lopper.bat --enhanced --werror -f -O C:\CHINNA\HLS_workspace\.rigel_lopper -i lop-cpu-oslist.dts C:\CHINNA\HLS_workspace\kv260_platform\hw\sdt\system-top.dts
+15:29:10 INFO  : cmd.exe, /C, lopper.bat --enhanced --werror -f -O C:\CHINNA\HLS_workspace\.rigel_lopper -i lop-cpu-oslist.dts C:\CHINNA\HLS_workspace\kv260_platform\hw\sdt\system-top.dts
+15:29:12 INFO  : CPU List generated successfully
+15:29:12 INFO  : SDT generated successfully.
+15:29:12 INFO  : ZYNQMP: Using the QEMU args from install at  : C:\2025.2\Vitis\data\emulation\platforms\zynqmp\sw\a53_linux\qemu\qemu_args.txt
+15:29:12 INFO  : ZYNQMP: Using the PMUQEMU args from install at  : C:\2025.2\Vitis\data\emulation\platforms\zynqmp\sw\a53_linux\qemu\pmu_args.txt
+15:29:12 INFO  : ZYNQMP: Using the QEMU args from install at  : C:\2025.2\Vitis\data\emulation\platforms\zynqmp\sw\a53_standalone\qemu\qemu_args.txt
+15:29:12 INFO  : ZYNQMP: Using the QEMU args from install at  : C:\2025.2\Vitis\data\emulation\platforms\zynqmp\sw\a53_standalone\qemu\qemu_args.txt
+15:29:12 INFO  : ZYNQMP: Using the PMUQEMU args from install at  : C:\2025.2\Vitis\data\emulation\platforms\zynqmp\sw\a53_standalone\qemu\pmu_args.txt
+15:29:12 INFO  : ZYNQMP: Using the PMUQEMU args from install at  : C:\2025.2\Vitis\data\emulation\platforms\zynqmp\sw\a53_standalone\qemu\pmu_args.txt
+15:29:12 INFO  : lopper command to generate BSP :empyro.bat create_bsp -w C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl\zynqmp_fsbl_bsp -p psu_cortexa53_0 -o standalone -s C:\CHINNA\HLS_workspace\kv260_platform\hw\sdt\system-top.dts -t zynqmp_fsbl -r C:\CHINNA\HLS_workspace\_ide\.wsdata\.repo.yaml
+15:29:12 INFO  : lopper command to generate BSP :empyro.bat create_bsp -w C:\CHINNA\HLS_workspace\kv260_platform\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp -p psu_cortexa53_0 -o standalone -s C:\CHINNA\HLS_workspace\kv260_platform\hw\sdt\system-top.dts -t empty_application -r C:\CHINNA\HLS_workspace\_ide\.wsdata\.repo.yaml
+15:29:12 INFO  : cmd.exe, /C, empyro.bat create_bsp -w C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl\zynqmp_fsbl_bsp -p psu_cortexa53_0 -o standalone -s C:\CHINNA\HLS_workspace\kv260_platform\hw\sdt\system-top.dts -t zynqmp_fsbl -r C:\CHINNA\HLS_workspace\_ide\.wsdata\.repo.yaml
+15:29:12 INFO  : cmd.exe, /C, empyro.bat create_bsp -w C:\CHINNA\HLS_workspace\kv260_platform\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp -p psu_cortexa53_0 -o standalone -s C:\CHINNA\HLS_workspace\kv260_platform\hw\sdt\system-top.dts -t empty_application -r C:\CHINNA\HLS_workspace\_ide\.wsdata\.repo.yaml
+15:29:31 INFO  : [INFO]: Starting domain creation
+15:29:31 INFO  : [INFO]: Generating Domain-specific DTS for psu_cortexa53_0
+15:29:31 INFO  : [INFO]: Generating required metadata from domain specific DT
+15:29:31 INFO  : [INFO]: Successfully created Domain at C:\CHINNA\HLS_workspace\kv260_platform\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+15:29:31 INFO  : Successfully Generated Domain C:\CHINNA\HLS_workspace\kv260_platform\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+15:29:31 INFO  : Domain standalone_psu_cortexa53_0 added successfully.
+15:29:34 INFO  : [INFO]: Starting domain creation
+15:29:34 INFO  : [INFO]: Generating Domain-specific DTS for psu_cortexa53_0
+15:29:34 INFO  : [INFO]: Generating required metadata from domain specific DT
+15:29:34 INFO  : CMake Warning at libsrc/xilsecure/src/CMakeLists.txt:31 (message):
+15:29:34 INFO  :   XilSecure library requires xilmailbox library in client mode.
+15:29:34 INFO  : 
+15:29:34 INFO  : 
+15:29:34 INFO  : [INFO]: Successfully created Domain at C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl\zynqmp_fsbl_bsp
+15:29:34 INFO  : Successfully Generated Domain C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl\zynqmp_fsbl_bsp
+15:29:34 INFO  : lopper command to create baremetal application :empyro.bat create_app --src_dir C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl -t zynqmp_fsbl -d C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl\zynqmp_fsbl_bsp -n fsbl -r C:\CHINNA\HLS_workspace\_ide\.wsdata\.repo.yaml
+15:29:34 INFO  : cmd.exe, /C, empyro.bat validate_bsp -t zynqmp_fsbl -d C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl\zynqmp_fsbl_bsp -r C:\CHINNA\HLS_workspace\_ide\.wsdata\.repo.yaml
+15:29:35 INFO  : Successfully validated template zynqmp_fsbl
+15:29:35 INFO  : cmd.exe, /C, empyro.bat create_app --src_dir C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl -t zynqmp_fsbl -d C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl\zynqmp_fsbl_bsp -n fsbl -r C:\CHINNA\HLS_workspace\_ide\.wsdata\.repo.yaml
+15:29:40 INFO  : [INFO]: Generating Linker script for zynqmp_fsbl
+15:29:40 INFO  : [INFO]: Successfully Created Application sources at C:/CHINNA/HLS_workspace/kv260_platform/zynqmp_fsbl
+15:29:40 INFO  : Successfully created Application C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl
+15:29:40 INFO  : Platform FSBL Boot domain added successfully.
+15:29:40 INFO  : created .gitignore file for the project C:\CHINNA\HLS_workspace\kv260_platform
+15:29:40 INFO  : Platform creation finished successfully.
+15:29:40 INFO  : Platform Quick Build initiated.
+15:29:40 INFO  : Generating Export directory
+15:29:40 INFO  : Generated platform metadata for creating application(s) based on platform kv260_platform.
+15:29:54 INFO  : cmd.exe, /C, lopper.bat -O  . C:\CHINNA\HLS_workspace\kv260_platform\hw\sdt\system-top.dts -- baremetal_getsupported_comp_xlnx psu_cortexa53_0 C:\CHINNA\HLS_workspace\_ide\.wsdata\.repo.yaml
+15:29:55 INFO  : Supported Library List generated.
+15:29:56 INFO  : cmd.exe, /C, lopper.bat -O  . C:\CHINNA\HLS_workspace\kv260_platform\hw\sdt\system-top.dts -- baremetal_getsupported_comp_xlnx psu_cortexa53_0 C:\CHINNA\HLS_workspace\_ide\.wsdata\.repo.yaml
+15:29:57 INFO  : Supported Library List generated.
+15:30:52 INFO  : cmd.exe, /C, empyro.bat validate_bsp -t empty_application -d C:\CHINNA\HLS_workspace\kv260_platform\export\kv260_platform\sw\standalone_psu_cortexa53_0 -r C:\CHINNA\HLS_workspace\_ide\.wsdata\.repo.yaml
+15:30:52 INFO  : Successfully validated template empty_application
+15:31:48 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\CHINNA\AppData\Local\Temp\rigel_lopper_CHINNA14661421442057050269 -r C:\CHINNA\HLS_workspace\_ide\.wsdata\.repo.yaml
+15:31:49 INFO  : updated workspace path: C:\CHINNA\HLS_workspace
+15:31:49 INFO  : Embedded Template List generated successfully
+15:31:49 INFO  : created .gitignore file for the project C:\CHINNA\HLS_workspace
+15:31:49 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\CHINNA\AppData\Local\Temp\rigel_lopper_CHINNA10763674696989208652 -r C:\CHINNA\HLS_workspace\_ide\.wsdata\.repo.yaml
+15:31:49 INFO  : Embedded Template List generated successfully
+15:32:06 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\CHINNA\AppData\Local\Temp\rigel_lopper_CHINNA7306088910375960207 -r C:\CHINNA\HLS_workspace\_ide\.wsdata\.repo.yaml
+15:32:06 INFO  : Embedded Template List generated successfully
+15:32:06 INFO  : updated workspace path: C:\CHINNA\HLS_workspace
+15:32:06 INFO  : created .gitignore file for the project C:\CHINNA\HLS_workspace
+15:32:06 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\CHINNA\AppData\Local\Temp\rigel_lopper_CHINNA11244986806133476879 -r C:\CHINNA\HLS_workspace\_ide\.wsdata\.repo.yaml
+15:32:07 INFO  : Embedded Template List generated successfully
+15:32:35 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\CHINNA\AppData\Local\Temp\rigel_lopper_CHINNA13140214424857295886 -r C:\CHINNA\HLS_workspace\_ide\.wsdata\.repo.yaml
+15:32:35 INFO  : updated workspace path: C:\CHINNA\HLS_workspace
+15:32:35 INFO  : Embedded Template List generated successfully
+15:32:35 INFO  : created .gitignore file for the project C:\CHINNA\HLS_workspace
+15:32:35 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\CHINNA\AppData\Local\Temp\rigel_lopper_CHINNA13167863689389228801 -r C:\CHINNA\HLS_workspace\_ide\.wsdata\.repo.yaml
+15:32:36 INFO  : Embedded Template List generated successfully
+15:33:07 INFO  : BSP build will be initiated for Domain zynqmp_fsbl
+15:33:07 INFO  : BSP build will be initiated for Domain standalone_psu_cortexa53_0
+15:33:07 INFO  : Generating BSP for the domain C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl\zynqmp_fsbl_bsp
+15:33:07 INFO  : Generating BSP for the domain C:\CHINNA\HLS_workspace\kv260_platform\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+15:33:07 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl\zynqmp_fsbl_bsp
+15:33:07 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\CHINNA\HLS_workspace\kv260_platform\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+15:33:07 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl\zynqmp_fsbl_bsp
+15:33:07 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\CHINNA\HLS_workspace\kv260_platform\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+15:33:07 INFO  : Domain reconfigured successfully
+15:33:07 INFO  : Generating BSP for the domain C:\CHINNA\HLS_workspace\kv260_platform\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+15:33:07 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\CHINNA\HLS_workspace\kv260_platform\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+15:33:07 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\CHINNA\HLS_workspace\kv260_platform\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+15:33:07 INFO  : Domain reconfigured successfully
+15:33:07 INFO  : Generating BSP for the domain C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl\zynqmp_fsbl_bsp
+15:33:07 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl\zynqmp_fsbl_bsp
+15:33:07 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl\zynqmp_fsbl_bsp
+15:33:13 INFO  : Domain build successfully
+15:33:14 INFO  : Domain build successfully
+15:33:14 INFO  : Generating Boot ELFs
+15:33:14 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl -d C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl\zynqmp_fsbl_bsp -b C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl\build
+15:33:14 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl -d C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl\zynqmp_fsbl_bsp -b C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl\build
+15:33:14 INFO  : [INFO]: Retargeting app
+15:33:14 INFO  : [INFO]: Updating link libraries based on new domain
+15:33:14 INFO  : Successfully retargeted Application C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl
+15:33:14 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl --build_dir C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl\build
+15:33:14 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl --build_dir C:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl\build
+15:33:20 INFO  : Successfully building the baremetal applicationC:\CHINNA\HLS_workspace\kv260_platform\zynqmp_fsbl\build
+15:33:20 INFO  : Generating Export directory
+15:33:20 INFO  : Platform Build Finished successfully.
+15:33:23 INFO  : connection terminated
+15:33:23 INFO  : connection terminated
+15:33:23 INFO  : scheduling shutdown timer for 2 seconds ...
+15:33:25 INFO  : Terminating Vitis C++ Server
+15:33:25 INFO  : Vitis C++ Server terminated

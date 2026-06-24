@@ -1,0 +1,3 @@
+C:\Users\LAB2_PC10\Desktop\CHINNA\files\conv2d.cpp:42:1: warning: missing argument for 'port' [-Winvalid-hls-pragmas]
+#pragma HLS INTERFACE ap_ctrl_none bundle=control
+^

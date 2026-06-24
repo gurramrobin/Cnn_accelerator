@@ -1,0 +1,157 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\LAB2_PC10\\Desktop\\CHINNA\\HLS_workspace\\relu_ip\\relu\\relu.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "06/11/26 16:06:58",
+ "timestampMillis": "1781174218711",
+ "buildStep": {
+  "cmdId": "3917c96f-46fc-4766-b3af-4bbe7ed05b01",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\LAB2_PC10\\Desktop\\CHINNA\\HLS_workspace\\relu_ip\\relu\\logs\\relu.steps.log",
+  "commandLine": "C:/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Users\\LAB2_PC10\\Desktop\\CHINNA\\HLS_workspace\\relu_ip\\hls_config.cfg --work_dir relu ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "C:\\Users\\LAB2_PC10\\Desktop\\CHINNA\\HLS_workspace\\relu_ip\\hls_config.cfg",
+   "--work_dir",
+   "relu"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\LAB2_PC10\\Desktop\\CHINNA\\HLS_workspace\\relu_ip"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/11/26 16:06:58",
+ "timestampMillis": "1781174218712",
+ "status": {
+  "cmdId": "3917c96f-46fc-4766-b3af-4bbe7ed05b01",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "06/11/26 16:07:03",
+ "timestampMillis": "1781174223348",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "relu",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\LAB2_PC10\\Desktop\\CHINNA\\files\\relu.cpp",
+     "C:/Users\\LAB2_PC10\\Desktop\\CHINNA\\files\\relu.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "06/11/26 16:07:03",
+ "timestampMillis": "1781174223348",
+ "buildStep": {
+  "cmdId": "67ddac46-182a-400d-a79a-70e672cb31cb",
+  "name": "",
+  "logFile": "C:/Users\\LAB2_PC10\\Desktop\\CHINNA\\HLS_workspace\\relu_ip\\relu\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\LAB2_PC10\\Desktop\\CHINNA\\HLS_workspace\\relu_ip"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/11/26 16:07:03",
+ "timestampMillis": "1781174223349",
+ "status": {
+  "cmdId": "67ddac46-182a-400d-a79a-70e672cb31cb",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/11/26 16:07:07",
+ "timestampMillis": "1781174227174",
+ "status": {
+  "cmdId": "67ddac46-182a-400d-a79a-70e672cb31cb",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/11/26 16:07:07",
+ "timestampMillis": "1781174227295",
+ "status": {
+  "cmdId": "3917c96f-46fc-4766-b3af-4bbe7ed05b01",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/11/26 16:07:07",
+ "timestampMillis": "1781174227296",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/11/26 16:07:07",
+ "timestampMillis": "1781174227296",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

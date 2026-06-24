@@ -1,0 +1,5 @@
+,AESL_inst_conv2d,,module_status1.csv
+,grp_conv2d_Pipeline_READ_INPUT_fu_252,,module_status2.csv
+,grp_conv2d_Pipeline_READ_WEIGHTS_fu_289,,module_status3.csv
+,grp_conv2d_Pipeline_CONV_OR_CONV_OC2_fu_310,,module_status4.csv
+,grp_conv2d_Pipeline_WRITE_OUTPUT_fu_358,,module_status5.csv

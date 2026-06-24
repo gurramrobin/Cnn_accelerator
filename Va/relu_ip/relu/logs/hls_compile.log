@@ -1,0 +1,96 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/relu_ip/relu 
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/relu_ip/relu/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/relu_ip/relu'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=C:/Users/LAB2_PC10/Desktop/CHINNA/files/relu.cpp' from hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/Users/LAB2_PC10/Desktop/CHINNA/files/relu.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=C:/Users/LAB2_PC10/Desktop/CHINNA/files/relu.h' from hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'C:/Users/LAB2_PC10/Desktop/CHINNA/files/relu.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=C:/Users/LAB2_PC10/Desktop/CHINNA/files/relu_tb.cpp' from hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/LAB2_PC10/Desktop/CHINNA/files/relu_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=relu' from hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xck26-sfvc784-2LV-c' from hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xck26-sfvc784-2LV-c'
+INFO: [HLS 200-1465] Applying config ini 'clock=5ns' from hls_config.cfg(11)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 5ns.
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-1465] Applying config ini 'vivado.clock=5ns' from hls_config.cfg(12)
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/relu_ip/relu/vitis-comp.json
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2 seconds. CPU system time: 2 seconds. Elapsed time: 4.35 seconds; current allocated memory: 534.691 MB.
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+INFO: [HLS 200-10] Analyzing design file 'C:/Users/LAB2_PC10/Desktop/CHINNA/files/relu.cpp' ... 
+WARNING: [HLS 207-7023] missing argument for 'port' (C:/Users/LAB2_PC10/Desktop/CHINNA/files/relu.cpp:30:1)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 4.449 seconds; current allocated memory: 537.094 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 629 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/relu_ip/relu/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 141 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/relu_ip/relu/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 114 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/relu_ip/relu/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 110 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/relu_ip/relu/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 72 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/relu_ip/relu/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 72 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/relu_ip/relu/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 72 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/relu_ip/relu/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 72 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/relu_ip/relu/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 72 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/relu_ip/relu/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 145 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/relu_ip/relu/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 142 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/relu_ip/relu/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 127 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/relu_ip/relu/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 96 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/relu_ip/relu/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 96 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/relu_ip/relu/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 69 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/relu_ip/relu/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 44 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/relu_ip/relu/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 214-178] Inlining function 'hls::axis<ap_uint<16>, 0ul, 0ul, 0ul, (unsigned char)56, false>::axis()' into 'relu(hls::stream<hls::axis<ap_uint<16>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_uint<16>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&)' (C:/Users/LAB2_PC10/Desktop/CHINNA/files/relu.cpp:27:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 7.342 seconds; current allocated memory: 538.840 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.001 seconds; current allocated memory: 538.840 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.068 seconds; current allocated memory: 543.312 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.027 seconds; current allocated memory: 544.598 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.044 seconds; current allocated memory: 565.621 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.042 seconds; current allocated memory: 565.625 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'relu' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'relu' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'RELU_LOOP'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, loop 'RELU_LOOP'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.118 seconds; current allocated memory: 565.625 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 565.625 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'relu' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'relu/in_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'relu/in_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'relu/in_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'relu/in_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'relu/out_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'relu/out_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'relu/out_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'relu/out_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'relu' to 'ap_ctrl_hs'.
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'relu' pipeline 'RELU_LOOP' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'relu'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.664 seconds; current allocated memory: 567.254 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.262 seconds; current allocated memory: 570.473 MB.
+INFO: [HLS 200-2225] Wrote inferred directives to file C:/Users/LAB2_PC10/Desktop/CHINNA/HLS_workspace/relu_ip/relu/hls/syn/inferred_directives.ini
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.567 seconds; current allocated memory: 571.098 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for relu.
+INFO: [VLOG 209-307] Generating Verilog RTL for relu.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 595.42 MHz
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 2 seconds. Total elapsed time: 18.979 seconds; peak allocated memory: 571.172 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 0m 22s

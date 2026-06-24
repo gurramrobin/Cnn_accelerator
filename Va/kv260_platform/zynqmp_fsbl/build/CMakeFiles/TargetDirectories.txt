@@ -1,0 +1,4 @@
+C:/CHINNA/HLS_workspace/kv260_platform/zynqmp_fsbl/build/CMakeFiles/fsbl.elf.dir
+C:/CHINNA/HLS_workspace/kv260_platform/zynqmp_fsbl/build/CMakeFiles/print_build_info.dir
+C:/CHINNA/HLS_workspace/kv260_platform/zynqmp_fsbl/build/CMakeFiles/edit_cache.dir
+C:/CHINNA/HLS_workspace/kv260_platform/zynqmp_fsbl/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,14 @@
+{
+  "workspaceRoot": "C:\\CHINNA\\HLS_workspace",
+  "mapping": {
+    "C:\\Users\\LAB2_PC10\\Desktop\\CHINNA\\files\\maxpool.h": "maxpool_ip",
+    "C:\\Users\\LAB2_PC10\\Desktop\\CHINNA\\files\\conv2d.h": "conv_ip",
+    "C:\\Users\\LAB2_PC10\\Desktop\\CHINNA\\files\\relu_tb.cpp": "relu_ip",
+    "C:\\Users\\LAB2_PC10\\Desktop\\CHINNA\\files\\maxpool_tb.cpp": "maxpool_ip",
+    "C:\\Users\\LAB2_PC10\\Desktop\\CHINNA\\files\\relu.cpp": "relu_ip",
+    "C:\\Users\\LAB2_PC10\\Desktop\\CHINNA\\files\\relu.h": "relu_ip",
+    "C:\\Users\\LAB2_PC10\\Desktop\\CHINNA\\files\\conv2d_tb.cpp": "conv_ip",
+    "C:\\Users\\LAB2_PC10\\Desktop\\CHINNA\\files\\conv2d.cpp": "conv_ip",
+    "C:\\Users\\LAB2_PC10\\Desktop\\CHINNA\\files\\maxpool.cpp": "maxpool_ip"
+  }
+}

@@ -1,0 +1,4 @@
+C:/Users/LAB2_PC10/Desktop/CHINNA/files/maxpool.cpp:23:1: warning: missing argument for 'port' [-Winvalid-hls-pragmas]
+#pragma HLS INTERFACE ap_ctrl_none bundle=control
+^
+1 warning generated.

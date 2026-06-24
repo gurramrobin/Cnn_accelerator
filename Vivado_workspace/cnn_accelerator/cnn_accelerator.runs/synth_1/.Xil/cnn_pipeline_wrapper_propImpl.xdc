@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:C:/CHINNA/Vivado_workspace/cnn_accelerator/cnn_accelerator.srcs/constrs_1/new/kv260_constraints.xdc rfile:../../../cnn_accelerator.srcs/constrs_1/new/kv260_constraints.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+create_clock -period 5.000 -name sys_clk [get_ports sys_clk]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN H12 [get_ports sys_clk]
+set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property IOSTANDARD LVCMOS33 [get_ports sys_clk]

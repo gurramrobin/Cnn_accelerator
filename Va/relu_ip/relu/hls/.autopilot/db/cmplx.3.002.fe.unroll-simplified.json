@@ -1,0 +1,20 @@
+{
+  "0": {
+    "basicblocks": 3,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 5,
+    "file": "relu.cpp",
+    "fileloc": 23,
+    "instructions": 106,
+    "loads": {
+      "L": 4
+    },
+    "memory_accesses": 12,
+    "name": "relu",
+    "stores": {
+      "L": 4
+    },
+    "total_instructions": 114
+  }
+}
