@@ -1,0 +1,23 @@
+{
+  "total_images": 780,
+  "train_size": 546,
+  "val_size": 117,
+  "test_size": 117,
+  "class_names": [
+    "benign",
+    "malignant",
+    "normal"
+  ],
+  "class_counts": [
+    437,
+    210,
+    133
+  ],
+  "class_weights": [
+    0.5949656750572082,
+    1.2380952380952381,
+    1.9548872180451127
+  ],
+  "image_size": 224,
+  "batch_size": 16
+}
